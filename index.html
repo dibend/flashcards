@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CompTIA Flashcard App</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="card text-center">
+            <div class="card-header">
+                CompTIA Flashcard App
+            </div>
+            <div class="card-body">
+                <div class="form-group">
+                    <label for="category-select">Select Category:</label>
+                    <select class="form-control" id="category-select">
+                        <option value="comptia_a+_1101">CompTIA A+ 1101</option>
+                        <option value="comptia_a+_1102">CompTIA A+ 1102</option>
+                        <option value="network+">Network+</option>
+                        <option value="security+">Security+</option>
+                    </select>
+                </div>
+                <h5 class="card-title" id="question">Loading...</h5>
+                <p class="card-text" id="answer"></p>
+                <button id="show-answer" class="btn btn-primary">Show Answer</button>
+                <button id="next-flashcard" class="btn btn-success">Next</button>
+            </div>
+            <div class="card-footer text-muted">
+                Keep Studying!
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

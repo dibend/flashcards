@@ -1,0 +1,90 @@
+{
+    "comptia_a+_1101": [
+        {
+            "question": "Which of the following answers refer to common battery types that can be found in modern portable devices? (Select 2 answers)",
+            "answer": "Lithium-ion (Li-ion), Lithium-ion Polymer (LiPo)"
+        },
+        {
+            "question": "What is the main function of a CPU?",
+            "answer": "To execute instructions from computer programs"
+        },
+        {
+            "question": "What does BIOS stand for?",
+            "answer": "Basic Input/Output System"
+        },
+        {
+            "question": "What type of memory is non-volatile and can be electrically erased and reprogrammed?",
+            "answer": "Flash Memory"
+        },
+        {
+            "question": "What is the purpose of a heat sink?",
+            "answer": "To dissipate heat from the CPU or GPU"
+        }
+    ],
+    "comptia_a+_1102": [
+        {
+            "question": "Which tool would you use to manage disk partitions in Windows?",
+            "answer": "Disk Management"
+        },
+        {
+            "question": "Which type of operating system is designed to run on network devices?",
+            "answer": "Network Operating System (NOS)"
+        },
+        {
+            "question": "What does GPU stand for?",
+            "answer": "Graphics Processing Unit"
+        },
+        {
+            "question": "What is the main purpose of an operating system?",
+            "answer": "To manage computer hardware and software resources and provide common services for computer programs"
+        },
+        {
+            "question": "Which Windows feature allows you to encrypt individual files?",
+            "answer": "Encrypting File System (EFS)"
+        }
+    ],
+    "network+": [
+        {
+            "question": "What type of connector is commonly used for networking cables?",
+            "answer": "RJ45"
+        },
+        {
+            "question": "Which protocol is used to assign IP addresses automatically?",
+            "answer": "DHCP (Dynamic Host Configuration Protocol)"
+        },
+        {
+            "question": "What is the most common interface for connecting external devices to a computer?",
+            "answer": "USB (Universal Serial Bus)"
+        },
+        {
+            "question": "Which device directs traffic based on MAC addresses?",
+            "answer": "Switch"
+        },
+        {
+            "question": "What is the primary function of a router?",
+            "answer": "To route data packets between different networks"
+        }
+    ],
+    "security+": [
+        {
+            "question": "What does RAM stand for?",
+            "answer": "Random Access Memory"
+        },
+        {
+            "question": "Which device converts digital signals to analog signals?",
+            "answer": "Modem"
+        },
+        {
+            "question": "What is the principle of least privilege?",
+            "answer": "Users are granted the minimum levels of access – or permissions – needed to perform their job functions"
+        },
+        {
+            "question": "What is a common method of encrypting email messages?",
+            "answer": "PGP (Pretty Good Privacy)"
+        },
+        {
+            "question": "What is a firewall used for?",
+            "answer": "To block unauthorized access while permitting outward communication"
+        }
+    ]
+}
