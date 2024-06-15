@@ -79,6 +79,86 @@
         {
             "question": "Which type of cable is typically used for Ethernet networking?",
             "answer": "Cat 5e or Cat 6 twisted pair cable"
+        },
+        {
+            "question": "A technician is troubleshooting a computer that is experiencing a BSOD error. Which tool should be used to check the system logs?",
+            "answer": "Event Viewer"
+        },
+        {
+            "question": "Which of the following cable types carries analog video signals and is characterized by three rows of five pins?",
+            "answer": "VGA (Video Graphics Array)"
+        },
+        {
+            "question": "What is the maximum data transfer rate of USB 3.1 Gen 2?",
+            "answer": "10 Gbps"
+        },
+        {
+            "question": "Which wireless standard operates at the shortest range and highest speed, often used for HD video streaming?",
+            "answer": "802.11ad (WiGig)"
+        },
+        {
+            "question": "A technician is installing a new printer on a network. Which of the following protocols will provide the best security?",
+            "answer": "IPPS (Internet Printing Protocol over HTTPS)"
+        },
+        {
+            "question": "What does RAID 10 combine to improve performance and provide fault tolerance?",
+            "answer": "RAID 1 (Mirroring) and RAID 0 (Striping)"
+        },
+        {
+            "question": "Which component in a laser printer applies heat and pressure to bond the toner to the paper?",
+            "answer": "Fuser Assembly"
+        },
+        {
+            "question": "A technician needs to replace the hard drive in a laptop. What type of interface is most commonly used in laptops?",
+            "answer": "SATA (Serial ATA)"
+        },
+        {
+            "question": "Which motherboard form factor is the largest and provides the most expansion slots?",
+            "answer": "ATX (Advanced Technology eXtended)"
+        },
+        {
+            "question": "Which network device filters and forwards traffic based on MAC addresses?",
+            "answer": "Switch"
+        },
+        {
+            "question": "Which command line tool is used in Windows to check and repair the file system and file system metadata on a disk?",
+            "answer": "CHKDSK"
+        },
+        {
+            "question": "Which component of a hard drive ensures data integrity by maintaining a stable rotational speed?",
+            "answer": "Spindle"
+        },
+        {
+            "question": "Which technology allows multiple physical disks to be combined into a single logical unit for improved performance and redundancy?",
+            "answer": "RAID (Redundant Array of Independent Disks)"
+        },
+        {
+            "question": "What is the main function of a thermal printer's print head?",
+            "answer": "To heat specific areas of heat-sensitive paper to create an image"
+        },
+        {
+            "question": "Which type of memory module is used in high-performance gaming laptops and has 260 pins?",
+            "answer": "DDR4 SO-DIMM"
+        },
+        {
+            "question": "Which protocol is commonly used to securely transfer files between remote systems over an encrypted network connection?",
+            "answer": "SFTP (SSH File Transfer Protocol)"
+        },
+        {
+            "question": "What is the primary difference between MBR and GPT partitioning schemes?",
+            "answer": "GPT supports larger disks and more partitions than MBR"
+        },
+        {
+            "question": "What does the term 'duplex printing' refer to?",
+            "answer": "Printing on both sides of the paper"
+        },
+        {
+            "question": "Which expansion card type is commonly used to connect storage devices and supports hot-swappable drives?",
+            "answer": "HBA (Host Bus Adapter)"
+        },
+        {
+            "question": "Which network protocol is used to synchronize time between devices on a network?",
+            "answer": "NTP (Network Time Protocol)"
         }
     ]
 }
