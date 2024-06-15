@@ -1,0 +1,84 @@
+{
+    "network+": [
+        {
+            "question": "Your current network uses MLPS for secure transactions. You want to move to Secure SDWAN in the interest of security. Which of these choices best justifies your case?",
+            "answer": "Secure SDWAN provides better security than MLPS"
+        },
+        {
+            "question": "An Angled Physical Contact (APC) on a fiber optic cable provides which of the following advantages over a UPC connection?",
+            "answer": "Provides superior performance"
+        },
+        {
+            "question": "When the route for an IP message to reach a destination is not known, where is the message forwarded to?",
+            "answer": "The default gateway"
+        },
+        {
+            "question": "Which transmission type is used in streaming and can be sent specifically to multiple network nodes simultaneously?",
+            "answer": "Multicast"
+        },
+        {
+            "question": "Which protocol is used to assign IP addresses automatically?",
+            "answer": "DHCP (Dynamic Host Configuration Protocol)"
+        },
+        {
+            "question": "What is the function of a router in a network?",
+            "answer": "To route data packets between different networks"
+        },
+        {
+            "question": "What is the main purpose of using VLANs in a network?",
+            "answer": "To segment a network into separate, isolated sections"
+        },
+        {
+            "question": "Which layer of the OSI model is responsible for data encryption?",
+            "answer": "Presentation Layer"
+        },
+        {
+            "question": "What is the primary difference between a hub and a switch?",
+            "answer": "A switch sends data to the specific device, while a hub broadcasts it to all devices"
+        },
+        {
+            "question": "Which command-line utility is used to display the routing table on a Windows machine?",
+            "answer": "route print"
+        },
+        {
+            "question": "Which protocol is commonly used to manage network devices?",
+            "answer": "SNMP (Simple Network Management Protocol)"
+        },
+        {
+            "question": "What does the term 'bandwidth' refer to in networking?",
+            "answer": "The maximum rate of data transfer across a given path"
+        },
+        {
+            "question": "What type of cable is used to connect two switches directly?",
+            "answer": "Crossover cable"
+        },
+        {
+            "question": "What is the purpose of a DMZ in network security?",
+            "answer": "To add an additional layer of security to an organization's local area network (LAN)"
+        },
+        {
+            "question": "What is the function of a firewall in a network?",
+            "answer": "To block unauthorized access while permitting outward communication"
+        },
+        {
+            "question": "Which command can be used to test the reachability of a host on an IP network?",
+            "answer": "ping"
+        },
+        {
+            "question": "What type of attack is mitigated by disabling unused ports on a network switch?",
+            "answer": "MAC flooding attack"
+        },
+        {
+            "question": "Which wireless security protocol is considered the most secure?",
+            "answer": "WPA3 (Wi-Fi Protected Access 3)"
+        },
+        {
+            "question": "What does the term 'latency' refer to in networking?",
+            "answer": "The delay before a transfer of data begins following an instruction for its transfer"
+        },
+        {
+            "question": "What is the primary function of a proxy server?",
+            "answer": "To act as an intermediary for requests from clients seeking resources from other servers"
+        }
+    ]
+}

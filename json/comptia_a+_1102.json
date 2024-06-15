@@ -1,0 +1,84 @@
+{
+    "comptia_a+_1102": [
+        {
+            "question": "Which Microsoft Windows 10 edition(s) provide(s) the option to join a domain? (Select all that apply)",
+            "answer": "Pro, Pro for Workstations, Enterprise"
+        },
+        {
+            "question": "A user reports that their PC is running slowly. Disk, CPU, and memory usage seem fine. What should the technician check next?",
+            "answer": "Check for malware or a background process consuming resources"
+        },
+        {
+            "question": "What is the purpose of using a high-powered magnet (degausser) on a hard drive?",
+            "answer": "To destroy data on the hard drive"
+        },
+        {
+            "question": "Which tool can be used to configure Windows startup programs?",
+            "answer": "Task Manager"
+        },
+        {
+            "question": "What command is used in Windows to repair the master boot record?",
+            "answer": "bootrec /fixmbr"
+        },
+        {
+            "question": "What is the primary purpose of the Event Viewer in Windows?",
+            "answer": "To view and manage event logs"
+        },
+        {
+            "question": "Which type of user account in Windows has the most privileges?",
+            "answer": "Administrator"
+        },
+        {
+            "question": "What feature of Windows allows for the encryption of individual files?",
+            "answer": "Encrypting File System (EFS)"
+        },
+        {
+            "question": "Which of the following file system types is used primarily for optical discs?",
+            "answer": "CDFS (Compact Disc File System)"
+        },
+        {
+            "question": "What command would you use to display all active network connections on a Windows machine?",
+            "answer": "netstat"
+        },
+        {
+            "question": "Which Windows feature allows for the restoration of system files to a previous state?",
+            "answer": "System Restore"
+        },
+        {
+            "question": "What type of software is designed to support the hardware and software of a computer?",
+            "answer": "Operating System"
+        },
+        {
+            "question": "Which of the following is a characteristic of NTFS compared to FAT32?",
+            "answer": "NTFS supports larger file sizes and disk quotas"
+        },
+        {
+            "question": "What Windows feature enables the encryption of an entire drive?",
+            "answer": "BitLocker"
+        },
+        {
+            "question": "Which command-line utility can be used to troubleshoot DNS issues?",
+            "answer": "nslookup"
+        },
+        {
+            "question": "What type of malware encrypts user files and demands payment for decryption?",
+            "answer": "Ransomware"
+        },
+        {
+            "question": "Which port is used by HTTPS?",
+            "answer": "Port 443"
+        },
+        {
+            "question": "What is the primary function of the Windows Update utility?",
+            "answer": "To keep the operating system up-to-date with patches and updates"
+        },
+        {
+            "question": "What is the purpose of User Account Control (UAC) in Windows?",
+            "answer": "To prevent unauthorized changes to the operating system"
+        },
+        {
+            "question": "Which Windows utility can be used to schedule automated tasks?",
+            "answer": "Task Scheduler"
+        }
+    ]
+}

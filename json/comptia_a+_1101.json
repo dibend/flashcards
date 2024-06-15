@@ -1,0 +1,84 @@
+{
+    "comptia_a+_1101": [
+        {
+            "question": "Which of the following answers refer to common battery types that can be found in modern portable devices? (Select 2 answers)",
+            "answer": "Lithium-ion (Li-ion), Lithium-ion Polymer (LiPo)"
+        },
+        {
+            "question": "What is the primary purpose of the BIOS in a computer system?",
+            "answer": "Initializing and testing hardware components"
+        },
+        {
+            "question": "Which type of memory is used primarily as cache memory for the CPU?",
+            "answer": "SRAM"
+        },
+        {
+            "question": "What does POST stand for in the context of computer startup?",
+            "answer": "Power-On Self-Test"
+        },
+        {
+            "question": "Which RAID level provides both redundancy and improved performance?",
+            "answer": "RAID 5"
+        },
+        {
+            "question": "What is the function of a heat sink in a computer?",
+            "answer": "To dissipate heat from the CPU or GPU"
+        },
+        {
+            "question": "What is the primary function of an SSD compared to an HDD?",
+            "answer": "To provide faster data access and retrieval speeds"
+        },
+        {
+            "question": "Which connector type is typically used for analog video connections?",
+            "answer": "VGA"
+        },
+        {
+            "question": "What type of expansion slot is used for graphics cards?",
+            "answer": "PCIe (PCI Express)"
+        },
+        {
+            "question": "Which component is responsible for generating the visual output to a monitor?",
+            "answer": "Graphics Card (GPU)"
+        },
+        {
+            "question": "What is the maximum transmission speed of USB 3.0?",
+            "answer": "5 Gbps"
+        },
+        {
+            "question": "Which of the following is an example of biometric authentication?",
+            "answer": "Fingerprint scanner"
+        },
+        {
+            "question": "What is the purpose of thermal paste in a computer system?",
+            "answer": "To improve heat transfer between the CPU and the heat sink"
+        },
+        {
+            "question": "What does the term 'form factor' refer to in the context of motherboards?",
+            "answer": "The physical size and shape of the motherboard"
+        },
+        {
+            "question": "Which wireless standard operates at both 2.4 GHz and 5 GHz frequencies?",
+            "answer": "802.11n"
+        },
+        {
+            "question": "What is the primary purpose of a power supply unit (PSU) in a computer?",
+            "answer": "To convert AC power from the wall outlet to DC power for the computer components"
+        },
+        {
+            "question": "Which command-line utility is used to check the file system and file system metadata of a disk in Windows?",
+            "answer": "CHKDSK"
+        },
+        {
+            "question": "What is the function of a NIC (Network Interface Card)?",
+            "answer": "To connect a computer to a network"
+        },
+        {
+            "question": "What type of storage device uses NAND flash memory?",
+            "answer": "Solid State Drive (SSD)"
+        },
+        {
+            "question": "Which type of cable is typically used for Ethernet networking?",
+            "answer": "Cat 5e or Cat 6 twisted pair cable"
+        }
+    ]
+}
