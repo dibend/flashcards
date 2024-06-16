@@ -81,7 +81,20 @@ document.getElementById('read-answer').addEventListener('click', () => {
     speakText(answerText);
 });
 
+document.getElementById('shuffle-flashcards').addEventListener('click', () => {
+    shuffleArray(flashcards);
+    currentIndex = 0;
+    displayFlashcard(currentIndex);
+});
+
 function speakText(text) {
     const speech = new SpeechSynthesisUtterance(text);
     window.speechSynthesis.speak(speech);
+}
+
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
 }
