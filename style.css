@@ -1,9 +1,34 @@
+/* Light mode styles */
 body {
     background-color: #f8f9fa;
+    color: #000;
     font-family: Arial, sans-serif;
 }
 
 .card {
     margin: 0 auto;
     max-width: 600px;
+    background-color: #fff;
+    color: #000;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark-mode .card {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+button {
+    margin: 5px;
+}
+
+/* Dark mode button styles */
+button.dark-mode {
+    background-color: #333;
+    color: #fff;
 }

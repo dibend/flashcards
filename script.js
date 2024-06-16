@@ -24,6 +24,11 @@ document.addEventListener('DOMContentLoaded', () => {
         currentCategory = files[0];
         loadFlashcards(currentCategory);
     }
+
+    // Toggle dark mode
+    document.getElementById('toggle-dark-mode').addEventListener('click', () => {
+        document.body.classList.toggle('dark-mode');
+    });
 });
 
 function loadFlashcards(category) {
