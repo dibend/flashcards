@@ -1,10 +1,6 @@
 let flashcards = [];
 let currentCategory = '';
 let currentIndex = 0;
-let intervalId;
-let isLooping = false;
-let isPlaying = false;
-let autoShuffle = false;
 
 document.addEventListener('DOMContentLoaded', () => {
     const files = ['comptia_a+_1101.json', 'comptia_a+_1102.json', 'network+.json', 'security+.json'];
@@ -47,60 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
             card.style.color = event.target.value;
         });
     });
-
-    // Play button
-    document.getElementById('play').addEventListener('click', () => {
-        if (!isPlaying) {
-            isPlaying = true;
-            autoPlay();
-        }
-    });
-
-    // Pause button
-    document.getElementById('pause').addEventListener('click', () => {
-        isPlaying = false;
-        clearInterval(intervalId);
-    });
-
-    // Loop button
-    document.getElementById('toggle-loop').addEventListener('click', () => {
-        isLooping = !isLooping;
-        document.getElementById('toggle-loop').classList.toggle('active');
-    });
-
-    // Auto shuffle button
-    document.getElementById('toggle-auto-shuffle').addEventListener('click', () => {
-        autoShuffle = !autoShuffle;
-        document.getElementById('toggle-auto-shuffle').classList.toggle('active');
-    });
-
-    // Shuffle button
-    document.getElementById('shuffle-flashcards').addEventListener('click', () => {
-        shuffleArray(flashcards);
-        currentIndex = 0;
-        displayFlashcard(currentIndex);
-    });
 });
-
-function autoPlay() {
-    intervalId = setInterval(() => {
-        displayFlashcard(currentIndex);
-        speakText(flashcards[currentIndex].question, () => {
-            setTimeout(() => {
-                speakText(flashcards[currentIndex].answer, () => {
-                    currentIndex = (currentIndex + 1) % flashcards.length;
-                    if (currentIndex === 0 && !isLooping) {
-                        clearInterval(intervalId);
-                        isPlaying = false;
-                    }
-                    if (currentIndex === 0 && autoShuffle) {
-                        shuffleArray(flashcards);
-                    }
-                });
-            }, 3000); // Adjust the delay as needed
-        });
-    }, 9000); // Adjust the interval as needed to accommodate reading time and delays
-}
 
 function loadFlashcards(category) {
     fetch(`json/${category}`)
@@ -157,9 +100,14 @@ document.getElementById('read-answer').addEventListener('click', () => {
     speakText(answerText);
 });
 
-function speakText(text, callback) {
+document.getElementById('shuffle-flashcards').addEventListener('click', () => {
+    shuffleArray(flashcards);
+    currentIndex = 0;
+    displayFlashcard(currentIndex);
+});
+
+function speakText(text) {
     const speech = new SpeechSynthesisUtterance(text);
-    speech.onend = callback;
     window.speechSynthesis.speak(speech);
 }
 
