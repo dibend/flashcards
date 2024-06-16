@@ -195,6 +195,86 @@
         {
             "question": "Which of the following tools would you use to test the functionality of a power supply?",
             "answer": "Multimeter"
+        },
+        {
+            "question": "What is the maximum recommended length for a network cable segment in a typical Ethernet network?",
+            "answer": "100 meters"
+        },
+        {
+            "question": "Which RAID level provides fault tolerance by striping data across multiple disks with parity?",
+            "answer": "RAID 5"
+        },
+        {
+            "question": "What is the primary purpose of a network firewall?",
+            "answer": "To block unauthorized access"
+        },
+        {
+            "question": "Which of the following is a common use for a VPN (Virtual Private Network)?",
+            "answer": "To secure remote access to a network"
+        },
+        {
+            "question": "What protocol is commonly used for secure remote login and other secure network services over an insecure network?",
+            "answer": "SSH"
+        },
+        {
+            "question": "Which type of network topology features a central hub to which all network devices are connected?",
+            "answer": "Star"
+        },
+        {
+            "question": "What is the primary function of a DHCP server in a network?",
+            "answer": "To assign IP addresses to devices"
+        },
+        {
+            "question": "What is the main advantage of using fiber optic cables over copper cables in a network?",
+            "answer": "Faster data transmission"
+        },
+        {
+            "question": "Which of the following is a commonly used protocol for encrypting data transmitted over a wireless network?",
+            "answer": "WPA2"
+        },
+        {
+            "question": "What does the term 'latency' refer to in networking?",
+            "answer": "The time delay in data transmission"
+        },
+        {
+            "question": "Which type of port is typically used for connecting external storage devices and peripherals, often found in newer laptops and desktops?",
+            "answer": "USB Type-C"
+        },
+        {
+            "question": "What does the acronym 'NAS' stand for in the context of data storage?",
+            "answer": "Network Attached Storage"
+        },
+        {
+            "question": "Which type of memory is volatile and loses its contents when power is turned off?",
+            "answer": "RAM (Random Access Memory)"
+        },
+        {
+            "question": "What does 'DNS' stand for and what is its primary function?",
+            "answer": "Domain Name System, to convert domain names into IP addresses"
+        },
+        {
+            "question": "What is the purpose of a UPS (Uninterruptible Power Supply) in a computer system?",
+            "answer": "To provide backup power in case of a power outage"
+        },
+        {
+            "question": "Which wireless security protocol is considered the weakest and is no longer recommended for use?",
+            "answer": "WEP (Wired Equivalent Privacy)"
+        },
+        {
+            "question": "What type of printer uses a drum, toner, and a fuser to print documents?",
+            "answer": "Laser printer"
+        },
+        {
+            "question": "What does the acronym 'SSD' stand for and what is its primary advantage over HDD?",
+            "answer": "Solid State Drive, faster data access and retrieval speeds"
+        },
+        {
+            "question": "Which port is typically used for connecting high-definition audio and video devices to a computer or TV?",
+            "answer": "HDMI (High-Definition Multimedia Interface)"
+        },
+        {
+            "question": "What is the function of the BIOS or UEFI firmware in a computer system?",
+            "answer": "To initialize and test hardware components and load the operating system"
         }
     ]
 }
