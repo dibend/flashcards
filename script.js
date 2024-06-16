@@ -52,21 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('play').addEventListener('click', () => {
         if (!isPlaying) {
             isPlaying = true;
-            intervalId = setInterval(() => {
-                displayFlashcard(currentIndex);
-                speakText(flashcards[currentIndex].question);
-                setTimeout(() => speakText(flashcards[currentIndex].answer), 3000);
-                currentIndex = (currentIndex + 1) % flashcards.length;
-                if (currentIndex === 0) {
-                    if (autoShuffle) {
-                        shuffleArray(flashcards);
-                    }
-                    if (!isLooping) {
-                        clearInterval(intervalId);
-                        isPlaying = false;
-                    }
-                }
-            }, 6000); // Adjust the interval as needed
+            autoPlay();
         }
     });
 
@@ -95,6 +81,26 @@ document.addEventListener('DOMContentLoaded', () => {
         displayFlashcard(currentIndex);
     });
 });
+
+function autoPlay() {
+    intervalId = setInterval(() => {
+        displayFlashcard(currentIndex);
+        speakText(flashcards[currentIndex].question, () => {
+            setTimeout(() => {
+                speakText(flashcards[currentIndex].answer, () => {
+                    currentIndex = (currentIndex + 1) % flashcards.length;
+                    if (currentIndex === 0 && !isLooping) {
+                        clearInterval(intervalId);
+                        isPlaying = false;
+                    }
+                    if (currentIndex === 0 && autoShuffle) {
+                        shuffleArray(flashcards);
+                    }
+                });
+            }, 3000); // Adjust the delay as needed
+        });
+    }, 9000); // Adjust the interval as needed to accommodate reading time and delays
+}
 
 function loadFlashcards(category) {
     fetch(`json/${category}`)
@@ -151,8 +157,9 @@ document.getElementById('read-answer').addEventListener('click', () => {
     speakText(answerText);
 });
 
-function speakText(text) {
+function speakText(text, callback) {
     const speech = new SpeechSynthesisUtterance(text);
+    speech.onend = callback;
     window.speechSynthesis.speak(speech);
 }
 
