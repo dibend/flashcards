@@ -1,6 +1,10 @@
 let flashcards = [];
 let currentCategory = '';
 let currentIndex = 0;
+let intervalId;
+let isLooping = false;
+let isPlaying = false;
+let autoShuffle = false;
 
 document.addEventListener('DOMContentLoaded', () => {
     const files = ['comptia_a+_1101.json', 'comptia_a+_1102.json', 'network+.json', 'security+.json'];
@@ -42,6 +46,53 @@ document.addEventListener('DOMContentLoaded', () => {
         cardElements.forEach(card => {
             card.style.color = event.target.value;
         });
+    });
+
+    // Play button
+    document.getElementById('play').addEventListener('click', () => {
+        if (!isPlaying) {
+            isPlaying = true;
+            intervalId = setInterval(() => {
+                displayFlashcard(currentIndex);
+                speakText(flashcards[currentIndex].question);
+                setTimeout(() => speakText(flashcards[currentIndex].answer), 3000);
+                currentIndex = (currentIndex + 1) % flashcards.length;
+                if (currentIndex === 0) {
+                    if (autoShuffle) {
+                        shuffleArray(flashcards);
+                    }
+                    if (!isLooping) {
+                        clearInterval(intervalId);
+                        isPlaying = false;
+                    }
+                }
+            }, 6000); // Adjust the interval as needed
+        }
+    });
+
+    // Pause button
+    document.getElementById('pause').addEventListener('click', () => {
+        isPlaying = false;
+        clearInterval(intervalId);
+    });
+
+    // Loop button
+    document.getElementById('toggle-loop').addEventListener('click', () => {
+        isLooping = !isLooping;
+        document.getElementById('toggle-loop').classList.toggle('active');
+    });
+
+    // Auto shuffle button
+    document.getElementById('toggle-auto-shuffle').addEventListener('click', () => {
+        autoShuffle = !autoShuffle;
+        document.getElementById('toggle-auto-shuffle').classList.toggle('active');
+    });
+
+    // Shuffle button
+    document.getElementById('shuffle-flashcards').addEventListener('click', () => {
+        shuffleArray(flashcards);
+        currentIndex = 0;
+        displayFlashcard(currentIndex);
     });
 });
 
@@ -98,12 +149,6 @@ document.getElementById('read-question').addEventListener('click', () => {
 document.getElementById('read-answer').addEventListener('click', () => {
     const answerText = document.getElementById('answer').innerText;
     speakText(answerText);
-});
-
-document.getElementById('shuffle-flashcards').addEventListener('click', () => {
-    shuffleArray(flashcards);
-    currentIndex = 0;
-    displayFlashcard(currentIndex);
 });
 
 function speakText(text) {
