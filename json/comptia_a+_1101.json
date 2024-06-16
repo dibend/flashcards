@@ -159,6 +159,42 @@
         {
             "question": "Which network protocol is used to synchronize time between devices on a network?",
             "answer": "NTP (Network Time Protocol)"
+        },
+        {
+            "question": "You want to install three virtual Linux workstations on your Windows Pro machine. Each Linux install requires 2GB of available system memory. Including the Virtual Machine Manager (VMM), what is the minimum amount of installed system memory needed to accomplish this?",
+            "answer": "10GB"
+        },
+        {
+            "question": "Regarding Imaging software, choose the odd one out from the list: Imaging software creates a precisely duplicated content from one hard disk to another, It lacks intimate knowledge of file systems and that results in copying of source hard disk into image block by block, The best imaging software is expensive and commercial, Imaging software have no ability to reset a malfunctioning computer to a standard configuration.",
+            "answer": "Imaging software have no ability to reset a malfunctioning computer to a standard configuration."
+        },
+        {
+            "question": "You are adding virtual machine support to an Intel-based Windows PC. In addition to the obvious memory and space requirements what else may need to be configured or enabled?",
+            "answer": "VT"
+        },
+        {
+            "question": "While unboxing your new external USB 3 storage device you see that the device uses a USB Type-C connector on both ends. What is the highest connection speed you can expect when correctly connected to your new computer?",
+            "answer": "5Gbps"
+        },
+        {
+            "question": "Which of the following cable types is most likely to be used to connect to an external hard drive?",
+            "answer": "USB"
+        },
+        {
+            "question": "What does RAID stand for?",
+            "answer": "Redundant Array of Independent Disks"
+        },
+        {
+            "question": "Which of the following is a common use for a KVM switch?",
+            "answer": "Connecting multiple computers to a single keyboard, monitor, and mouse"
+        },
+        {
+            "question": "What is the primary function of a DNS server?",
+            "answer": "To convert domain names into IP addresses"
+        },
+        {
+            "question": "Which of the following tools would you use to test the functionality of a power supply?",
+            "answer": "Multimeter"
         }
     ]
 }
