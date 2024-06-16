@@ -275,6 +275,46 @@
         {
             "question": "What is the function of the BIOS or UEFI firmware in a computer system?",
             "answer": "To initialize and test hardware components and load the operating system"
+        },
+        {
+            "question": "Which of the following is a feature of an M.2 SSD?",
+            "answer": "It connects directly to the motherboard, often providing faster data transfer rates compared to SATA drives."
+        },
+        {
+        "question": "What is the purpose of a loopback plug?",
+        "answer": "To test network interfaces and ensure proper transmission and reception of signals."
+        },
+        {
+            "question": "Which tool is used to attach RJ-45 connectors to Ethernet cables?",
+            "answer": "Crimping tool"
+        },
+        {
+            "question": "What type of expansion card is used to connect a computer to a wireless network?",
+            "answer": "Wi-Fi card"
+        },
+        {
+            "question": "Which of the following is a benefit of using UEFI over BIOS?",
+            "answer": "Supports larger hard drives and faster boot times"
+        },
+        {
+            "question": "What is the main function of a KVM switch?",
+            "answer": "To control multiple computers using a single keyboard, video monitor, and mouse"
+        },
+        {
+            "question": "Which protocol is used for sending email?",
+            "answer": "SMTP (Simple Mail Transfer Protocol)"
+        },
+        {
+            "question": "Which type of RAID configuration provides redundancy by writing identical data to two drives?",
+            "answer": "RAID 1 (Mirroring)"
+        },
+        {
+            "question": "What is the primary purpose of a thermal paste in a computer system?",
+            "answer": "To improve the heat transfer between the CPU and its heat sink"
+        },
+        {
+            "question": "Which component is responsible for converting AC power to DC power in a computer?",
+            "answer": "Power Supply Unit (PSU)"
         }
     ]
 }
