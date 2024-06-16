@@ -29,6 +29,20 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('toggle-dark-mode').addEventListener('click', () => {
         document.body.classList.toggle('dark-mode');
     });
+
+    // Handle background color change
+    document.getElementById('bg-color-picker').addEventListener('input', (event) => {
+        document.body.style.backgroundColor = event.target.value;
+    });
+
+    // Handle text color change
+    document.getElementById('text-color-picker').addEventListener('input', (event) => {
+        document.body.style.color = event.target.value;
+        const cardElements = document.querySelectorAll('.card');
+        cardElements.forEach(card => {
+            card.style.color = event.target.value;
+        });
+    });
 });
 
 function loadFlashcards(category) {
