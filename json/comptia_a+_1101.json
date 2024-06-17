@@ -387,6 +387,54 @@
         {"question": "What is the purpose of a change management process?", "answer": "Ensure that changes to IT systems are made in a controlled manner"},
         {"question": "Which of the following is a type of change management process?", "answer": "ITIL"},
         {"question": "What is the purpose of an incident management process?", "answer": "Respond to and resolve IT incidents"},
-        {"question": "Which of the following is a type of incident management process?", "answer": "ITSM"}
+        {"question": "Which of the following is a type of incident management process?", "answer": "ITSM"},
+        {
+            "question": "What are the three common types of flash memory used in computing devices?",
+            "answer": "NAND, NOR, and eMMC (Embedded Multi-Media Card)"
+        },
+        {
+            "question": "Which CPU socket types are predominantly used by Intel and AMD processors?",
+            "answer": "Intel uses LGA (Land Grid Array) while AMD uses PGA (Pin Grid Array)."
+        },
+        {
+            "question": "Explain the key difference between RAID 5 and RAID 6.",
+            "answer": "RAID 5 utilizes block-level striping with distributed parity across a minimum of three drives. RAID 6 enhances fault tolerance by adding an extra parity block, requiring at least four drives."
+        },
+        {
+            "question": "Given an IPv6 address and prefix length (e.g., 2001:db8::/32), how do you identify the network address and available host addresses?",
+            "answer": "The network address is determined by masking the given IPv6 address with the prefix length. In the example 2001:db8::/32, the network address is 2001:db8::. The available host addresses are all addresses within that network, excluding the network address and broadcast address (if applicable)."
+        },
+        {
+            "question": "In what situations would you recommend using static IP addresses over DHCP?",
+            "answer": "Servers, printers, and other devices needing consistent IP addresses for easy access. Additionally, any device that needs to be easily found or accessed by other devices on the network (like a NAS) would benefit from a static IP."
+        },
+        {
+            "question": "Rank WPA, WPA2, and WPA3 in order of security strength.",
+            "answer": "WPA3 > WPA2 > WPA"
+        },
+        {
+            "question": "Name and briefly describe three common social engineering techniques.",
+            "answer": "Phishing:  Deceptive emails or messages to trick individuals into revealing sensitive information.\nPretexting: Creating a false scenario to manipulate someone into divulging information or performing an action.\nBaiting: Offering something enticing (e.g., free download) that contains malicious software."
+        },
+        {
+            "question": "Explain the difference between data wiping and physical destruction in the context of data security.",
+            "answer": "Data wiping involves overwriting the data on a storage device multiple times to make it virtually unrecoverable. Physical destruction, on the other hand, entails physically damaging the storage media (e.g., shredding, degaussing) to ensure the data cannot be retrieved."
+        },
+        {
+            "question": "What are the three main categories of authentication factors used in cybersecurity?",
+            "answer": "Something you know (e.g., password, PIN), something you have (e.g., smart card, token), and something you are (e.g., fingerprint, facial recognition)."
+        },
+        {
+            "question": "What are the advantages of using NTFS over FAT32 on a Windows system?",
+            "answer": "NTFS offers several advantages over FAT32, including support for larger file sizes, improved security through permissions and encryption, journaling for file system recovery, and various other advanced features like file compression and disk quotas."
+        },
+        {
+            "question": "Name three popular virtualization hypervisors.",
+            "answer": "VMware ESXi, Microsoft Hyper-V, and Oracle VirtualBox are three widely used virtualization hypervisors."
+        },
+        {
+            "question": "In the Windows command prompt, which commands are used to list files in a directory, change directories, and copy a file?",
+            "answer": "To list files in a directory, use the 'dir' command. To change directories, use 'cd' followed by the directory path. To copy a file, use the 'copy' command followed by the source and destination file paths."
+        }
     ]
 }
