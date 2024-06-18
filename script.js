@@ -28,11 +28,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // Toggle dark mode
     document.getElementById('toggle-dark-mode').addEventListener('click', () => {
         document.body.classList.toggle('dark-mode');
+        animateElement(document.body, 'shake');
     });
 
     // Handle background color change
     document.getElementById('bg-color-picker').addEventListener('input', (event) => {
         document.body.style.backgroundColor = event.target.value;
+        animateElement(document.body, 'fade-in');
     });
 
     // Handle text color change
@@ -42,6 +44,15 @@ document.addEventListener('DOMContentLoaded', () => {
         cardElements.forEach(card => {
             card.style.color = event.target.value;
         });
+        animateElement(document.body, 'fade-in');
+    });
+
+    // Shuffle button
+    document.getElementById('shuffle-flashcards').addEventListener('click', () => {
+        shuffleArray(flashcards);
+        currentIndex = 0;
+        displayFlashcard(currentIndex);
+        animateElement(document.getElementById('shuffle-flashcards'), 'shake');
     });
 });
 
@@ -76,34 +87,33 @@ function displayFlashcard(index) {
     const flashcard = flashcards[index];
     document.getElementById('question').innerText = flashcard.question;
     document.getElementById('answer').innerText = '';
+    animateElement(document.getElementById('question'), 'fade-in');
 }
 
 document.getElementById('show-answer').addEventListener('click', () => {
     const flashcard = flashcards[currentIndex];
     if (flashcard) {
         document.getElementById('answer').innerText = flashcard.answer;
+        animateElement(document.getElementById('answer'), 'fade-in');
     }
 });
 
 document.getElementById('next-flashcard').addEventListener('click', () => {
     currentIndex = (currentIndex + 1) % flashcards.length;
     displayFlashcard(currentIndex);
+    animateElement(document.getElementById('next-flashcard'), 'shake');
 });
 
 document.getElementById('read-question').addEventListener('click', () => {
     const questionText = document.getElementById('question').innerText;
     speakText(questionText);
+    animateElement(document.getElementById('read-question'), 'shake');
 });
 
 document.getElementById('read-answer').addEventListener('click', () => {
     const answerText = document.getElementById('answer').innerText;
     speakText(answerText);
-});
-
-document.getElementById('shuffle-flashcards').addEventListener('click', () => {
-    shuffleArray(flashcards);
-    currentIndex = 0;
-    displayFlashcard(currentIndex);
+    animateElement(document.getElementById('read-answer'), 'shake');
 });
 
 function speakText(text) {
@@ -116,4 +126,11 @@ function shuffleArray(array) {
         const j = Math.floor(Math.random() * (i + 1));
         [array[i], array[j]] = [array[j], array[i]];
     }
+}
+
+function animateElement(element, animation) {
+    element.classList.add(animation);
+    setTimeout(() => {
+        element.classList.remove(animation);
+    }, 1000); // Duration of the animation should match the CSS animation duration
 }

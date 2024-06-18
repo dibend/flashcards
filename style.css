@@ -10,6 +10,16 @@ body {
     max-width: 600px;
     background-color: #fff;
     color: #000;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+button {
+    margin: 5px;
+    transition: transform 0.1s ease;
+}
+
+button:active {
+    transform: scale(0.95);
 }
 
 /* Dark mode styles */
@@ -23,12 +33,34 @@ body.dark-mode .card {
     color: #e0e0e0;
 }
 
-button {
-    margin: 5px;
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
-/* Dark mode button styles */
-button.dark-mode {
-    background-color: #333;
-    color: #fff;
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in-out;
+}
+
+.shake {
+    animation: shake 0.5s;
 }
