@@ -79,6 +79,35 @@
         {
             "question": "What is the primary function of a proxy server?",
             "answer": "To act as an intermediary for requests from clients seeking resources from other servers"
-        }
+        },
+        {"question": "Which of the following cable types is used to connect a computer to a switch?\nA) Crossover cable\nB) Rollover cable\nC) Straight-through cable\nD) Console cable", "answer": "C"},
+        {"question": "What is the primary function of a DHCP server?\nA) To resolve domain names to IP addresses\nB) To assign IP addresses to devices on a network\nC) To filter network traffic based on predefined rules\nD) To provide authentication and authorization services", "answer": "B"},
+        {"question": "Which network topology has a central device that connects all other devices?\nA) Mesh\nB) Star\nC) Ring\nD) Bus", "answer": "B"},
+        {"question": "Which port number is used by the HTTPS protocol?\nA) 22\nB) 80\nC) 443\nD) 25", "answer": "C"},
+        {"question": "What is the purpose of a subnet mask?\nA) To determine the network address of an IP address\nB) To identify the default gateway of a network\nC) To specify the range of IP addresses that can be used on a network\nD) To encrypt network traffic for security", "answer": "A"},
+{"question": "Which of the following is a type of denial-of-service (DoS) attack?\nA) Man-in-the-middle attack\nB) SQL injection attack\nC) Phishing attack\nD) SYN flood attack", "answer": "D"},
+{"question": "What does the acronym SSID stand for in wireless networking?\nA) Secure Socket Identification\nB) Service Set Identifier\nC) System Security Identifier\nD) Standard Service Interface", "answer": "B"},
+{"question": "Which of the following is a common protocol used for network management?\nA) SMTP\nB) SNMP\nC) FTP\nD) HTTP", "answer": "B"},
+{"question": "Which type of firewall inspects the contents of packets to determine whether to allow or deny them?\nA) Packet filtering firewall\nB) Stateful inspection firewall\nC) Proxy firewall\nD) Next-generation firewall (NGFW)", "answer": "B"},
+{"question": "What is the function of a router in a network?\nA) To connect devices on the same network segment\nB) To forward traffic between different networks\nC) To filter network traffic based on IP addresses\nD) To translate domain names to IP addresses", "answer": "B"},
+{"question": "Which of the following protocols is used to resolve domain names to IP addresses?\nA) DHCP\nB) DNS\nC) ARP\nD) ICMP", "answer": "B"},
+{"question": "Which OSI layer is responsible for establishing, managing, and terminating sessions between applications?\nA) Application layer\nB) Session layer\nC) Transport layer\nD) Network layer", "answer": "B"},
+{"question": "Which type of network cable is the most susceptible to electromagnetic interference (EMI)?\nA) Unshielded twisted pair (UTP)\nB) Shielded twisted pair (STP)\nC) Coaxial cable\nD) Fiber optic cable", "answer": "A"},
+{"question": "What is the purpose of a VLAN?\nA) To separate physical networks\nB) To logically segment a network\nC) To improve network security\nD) To increase network bandwidth", "answer": "B"},
+{"question": "Which of the following is a private IP address?\nA) 10.0.0.1\nB) 172.31.1.1\nC) 192.168.1.1\nD) All of the above", "answer": "D"},
+{"question": "What is the difference between a hub and a switch?\nA) A hub broadcasts traffic to all connected devices, while a switch forwards traffic only to the intended recipient.\nB) A hub operates at Layer 2 of the OSI model, while a switch operates at Layer 3.\nC) A hub can support multiple VLANs, while a switch cannot.\nD) A hub is used to connect devices on different networks, while a switch is used to connect devices on the same network.", "answer": "A"},
+{"question": "Which of the following is a type of wireless network encryption protocol?\nA) WPA2\nB) WEP\nC) TKIP\nD) All of the above", "answer": "D"},
+{"question": "What is the purpose of a DMZ (demilitarized zone) in a network?\nA) To store sensitive data\nB) To isolate public-facing servers from the internal network\nC) To provide a secure connection between two networks\nD) To prevent unauthorized access to a network", "answer": "B"},
+{"question": "Which of the following is a common network troubleshooting tool?\nA) Ping\nB) Traceroute\nC) nslookup\nD) All of the above", "answer": "D"},
+{"question": "Which type of cable is used to connect a computer to a router?\nA) Crossover cable\nB) Rollover cable\nC) Straight-through cable\nD) Console cable", "answer": "C"},
+{"question": "What is the purpose of a VPN (virtual private network)?\nA) To encrypt network traffic\nB) To create a secure connection over a public network\nC) To bypass firewalls\nD) All of the above", "answer": "D"},
+{"question": "Which of the following is a type of network address translation (NAT)?\nA) Port Address Translation (PAT)\nB) Static NAT\nC) Dynamic NAT\nD) All of the above", "answer": "D"},
+{"question": "Which protocol is used to secure web traffic?\nA) HTTP\nB) FTP\nC) SSH\nD) HTTPS", "answer": "D"},
+{"question": "What does the term \"latency\" refer to in networking?\nA) The amount of data that can be transmitted over a network in a given time\nB) The time it takes for a packet to travel from source to destination\nC) The number of hops a packet takes to reach its destination\nD) The reliability of a network connection", "answer": "B"},
+{"question": "Which of the following is a type of fiber optic cable connector?\nA) SC\nB) ST\nC) LC\nD) All of the above", "answer": "D"},
+{"question": "What is the difference between TCP and UDP?\nA) TCP is a connection-oriented protocol, while UDP is a connectionless protocol.\nB) TCP guarantees delivery of packets, while UDP does not.\nC) TCP is used for reliable data transmission, while UDP is used for real-time applications.\nD) All of the above", "answer": "D"},
+{"question": "Which of the following is a network device that operates at Layer 2 of the OSI model?\nA) Router\nB) Switch\nC) Hub\nD) Firewall", "answer": "B"},
+{"question": "What is the purpose of a default gateway?\nA) To provide access to the internet\nB) To route traffic between different networks\nC) To filter network traffic based on IP addresses\nD) To translate domain names to IP addresses", "answer": "A"},
+{"question": "Which of the following is a type of network topology?\nA) Star\nB) Bus\nC) Ring\nD) All of the above", "answer": "D"}
     ]
 }
