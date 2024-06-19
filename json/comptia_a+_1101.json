@@ -475,6 +475,46 @@
         {
             "question": "What are some common troubleshooting steps for a printer that is not printing?",
             "answer": "Common steps include checking the printer's power and connectivity, ensuring the correct printer is selected, verifying ink or toner levels, clearing paper jams, and restarting the printer and computer."
+        },
+        {
+            "question": "What is the difference between a cold boot and a warm boot?",
+            "answer": "A cold boot is when the computer is started from a completely powered-off state, while a warm boot is restarting the computer without turning it completely off."
+        },
+        {
+            "question": "What are the two main types of motherboard expansion slots?",
+            "answer": "PCIe (PCI Express) and PCI (Peripheral Component Interconnect)"
+        },
+        {
+            "question": "What is the function of a CPU fan?",
+            "answer": "To cool down the CPU and prevent it from overheating"
+        },
+        {
+            "question": "What is the purpose of a CMOS battery on a motherboard?",
+            "answer": "To power the CMOS chip and store BIOS settingswhen the computer is turned off."
+        },
+        {
+            "question": "What are the two main types of wireless network security encryption?",
+            "answer": "WPA/WPA2/WPA3 and WEP"
+        },
+        {
+            "question": "What is the purpose of a surge protector?",
+            "answer": "To protect electronic devices from voltage spikes and surges"
+        },
+        {
+            "question": "What are the four layers of the TCP/IP model?",
+            "answer": "Application, Transport, Internet, Network Interface"
+        },
+        {
+            "question": "What is the difference between a workgroup and a domain in a network?",
+            "answer": "A workgroup is a decentralized peer-to-peer network model, while a domain is a centralized network model with a central server managing security and access control."
+        },
+        {
+            "question": "What are the three main types of cloud computing service models?",
+            "answer": "IaaS (Infrastructure as a Service), PaaS (Platform as a Service), and SaaS (Software as a Service)"
+        },
+        {
+            "question": "What is the difference between a virus and a worm?",
+            "answer": "A virus requires a host program to spread, while a worm can self-replicate and spread independently."
         }
     ]
 }
