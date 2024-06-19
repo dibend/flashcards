@@ -435,6 +435,46 @@
         {
             "question": "In the Windows command prompt, which commands are used to list files in a directory, change directories, and copy a file?",
             "answer": "To list files in a directory, use the 'dir' command. To change directories, use 'cd' followed by the directory path. To copy a file, use the 'copy' command followed by the source and destination file paths."
+        },
+        {
+            "question": "What is the difference between a client-server network and a peer-to-peer network?",
+            "answer": "In a client-server network, a central server manages resources and provides services to client devices. In a peer-to-peer network, devices share resources directly with each other without a central server."
+        },
+        {
+            "question": "Explain the function of a DHCP server in a network.",
+            "answer": "A DHCP (Dynamic Host Configuration Protocol) server automatically assigns IP addresses, subnet masks, default gateways, and other network configuration parameters to devices on a network."
+        },
+        {
+            "question": "What is the purpose of a DMZ (Demilitarized Zone) in network security?",
+            "answer": "A DMZ is a network segment that separates an organization's internal network from the public internet. It is typically used to host publicly accessible servers while keeping the internal network secure."
+        },
+        {
+            "question": "What is the difference between TCP and UDP protocols?",
+            "answer": "TCP (Transmission Control Protocol) is a connection-oriented protocol that ensures reliable data delivery through error checking and retransmission. UDP (User Datagram Protocol) is a connectionless protocol that prioritizes speed over reliability."
+        },
+        {
+            "question": "What is the purpose of a MAC address (Media Access Control address)?",
+            "answer": "A MAC address is a unique identifier assigned to a network interface controller (NIC). It is used for communication at the data link layer of a network."
+        },
+        {
+            "question": "What are the different types of cloud computing service models (IaaS, PaaS, SaaS)?",
+            "answer": "IaaS (Infrastructure as a Service): Provides virtualized computing resources over the internet.\nPaaS (Platform as a Service): Provides a platform for developing, running, and managing applications without the complexity of building and maintaining the infrastructure.\nSaaS (Software as a Service): Delivers software applications over the internet on a subscription basis."
+        },
+        {
+            "question": "What is the difference between a software firewall and a hardware firewall?",
+            "answer": "A software firewall is installed on a computer's operatingsystem and filters network traffic at the software level. A hardware firewall is a physical device that sits between a network and the internet, filtering traffic at the hardware level."
+        },
+        {
+            "question": "What is the difference between a virus and a worm?",
+            "answer": "A virus requires user interaction (e.g., opening an infected file) to spread, while a worm can self-replicate and spread independently without user intervention."
+        },
+        {
+            "question": "What is the purpose of a SOHO (Small Office/Home Office) router?",
+            "answer": "A SOHO router is a networking device that provides internet access to multiple devices within a small office or home environment. It typically includes features like firewall protection, wireless access point, and DHCP server."
+        },
+        {
+            "question": "What are some common troubleshooting steps for a printer that is not printing?",
+            "answer": "Common steps include checking the printer's power and connectivity, ensuring the correct printer is selected, verifying ink or toner levels, clearing paper jams, and restarting the printer and computer."
         }
     ]
 }
