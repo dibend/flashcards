@@ -1,6 +1,7 @@
 let flashcards = [];
 let currentCategory = '';
 let currentIndex = 0;
+let knownQuestions = JSON.parse(localStorage.getItem('knownQuestions')) || {};
 
 document.addEventListener('DOMContentLoaded', () => {
     const files = ['comptia_a+_1101.json', 'comptia_a+_1102.json', 'network+.json', 'security+.json'];
@@ -54,6 +55,23 @@ document.addEventListener('DOMContentLoaded', () => {
         displayFlashcard(currentIndex);
         animateElement(document.getElementById('shuffle-flashcards'), 'shake');
     });
+
+    // Clear known questions
+    document.getElementById('clear-known').addEventListener('click', () => {
+        knownQuestions = {};
+        localStorage.removeItem('knownQuestions');
+        alert('Known questions cleared!');
+    });
+
+    // Mark as known button
+    document.getElementById('mark-known').addEventListener('click', () => {
+        const flashcard = flashcards[currentIndex];
+        if (flashcard) {
+            markAsKnown(flashcard.question);
+            document.getElementById('show-answer').style.display = 'none';
+            animateElement(document.getElementById('mark-known'), 'shake');
+        }
+    });
 });
 
 function loadFlashcards(category) {
@@ -87,6 +105,8 @@ function displayFlashcard(index) {
     const flashcard = flashcards[index];
     document.getElementById('question').innerText = flashcard.question;
     document.getElementById('answer').innerText = '';
+    document.getElementById('show-answer').style.display = knownQuestions[flashcard.question] ? 'none' : 'inline-block';
+    document.getElementById('mark-known').style.display = knownQuestions[flashcard.question] ? 'none' : 'inline-block';
     animateElement(document.getElementById('question'), 'fade-in');
 }
 
@@ -115,6 +135,11 @@ document.getElementById('read-answer').addEventListener('click', () => {
     speakText(answerText);
     animateElement(document.getElementById('read-answer'), 'shake');
 });
+
+function markAsKnown(question) {
+    knownQuestions[question] = true;
+    localStorage.setItem('knownQuestions', JSON.stringify(knownQuestions));
+}
 
 function speakText(text) {
     const speech = new SpeechSynthesisUtterance(text);
