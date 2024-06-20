@@ -1,8 +1,7 @@
 {
     "comptia_a+_1101": [
         {
-            "question": "Which of the following answers refer to common battery types that can be found in modern portable devices? (Select 2 answers)",
-            "answer": "Lithium-ion (Li-ion), Lithium-ion Polymer (LiPo)"
+            "question": "Which of the following answers refer to common battery types that can be found in modern portable devices? (Select 2 answers) \nA. Lithium-ion (Li-ion) \nB. Nickel Metal Hydride (NiMH) \nC. Lithium-ion Polymer (LiPo) \nD. Alkaline", "answer": "A, C"
         },
         {
             "question": "What is the primary purpose of the BIOS in a computer system?",
@@ -45,8 +44,7 @@
             "answer": "5 Gbps"
         },
         {
-            "question": "Which of the following is an example of biometric authentication?",
-            "answer": "Fingerprint scanner"
+            "question": "Which of the following is an example of biometric authentication? \nA. Password \nB. Fingerprint scanner \nC. PIN \nD. Security question", "answer": "B"
         },
         {
             "question": "What is the purpose of thermal paste in a computer system?",
@@ -85,7 +83,7 @@
             "answer": "Event Viewer"
         },
         {
-            "question": "Which of the following cable types carries analog video signals and is characterized by three rows of five pins?",
+            "question": "Which cable types carries analog video signals and is characterized by three rows of five pins?",
             "answer": "VGA (Video Graphics Array)"
         },
         {
