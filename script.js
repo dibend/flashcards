@@ -6,7 +6,7 @@ let knownQuestions = JSON.parse(localStorage.getItem('knownQuestions')) || {};
 document.addEventListener('DOMContentLoaded', () => {
     const files = ['comptia_a+_1101.json', 'comptia_a+_1102.json', 'network+.json', 'security+.json'];
     const select = document.getElementById('category-select');
-    
+
     files.forEach(file => {
         const option = document.createElement('option');
         option.value = file;
@@ -30,6 +30,12 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('toggle-dark-mode').addEventListener('click', () => {
         document.body.classList.toggle('dark-mode');
         animateElement(document.body, 'shake');
+    });
+
+    // Handle form box background color change
+    document.getElementById('form-bg-color-picker').addEventListener('input', (event) => {
+        document.querySelector('.card-body').style.backgroundColor = event.target.value;
+        animateElement(document.querySelector('.card-body'), 'fade-in');
     });
 
     // Handle background color change

@@ -13,6 +13,12 @@ body {
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
+.card-body {
+    padding: 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
 button {
     margin: 5px;
     transition: transform 0.1s ease;
