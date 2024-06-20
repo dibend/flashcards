@@ -69,7 +69,8 @@ document.addEventListener('DOMContentLoaded', () => {
         if (flashcard) {
             markAsKnown(flashcard.question);
             document.getElementById('show-answer').style.display = 'none';
-            animateElement(document.getElementById('mark-known'), 'shake');
+            document.getElementById('mark-known').style.display = 'none';
+            nextFlashcard();
         }
     });
 });
@@ -88,7 +89,13 @@ function loadFlashcards(category) {
             if (!Array.isArray(flashcards) || flashcards.length === 0) {
                 throw new Error('No flashcards found in the selected category');
             }
-            displayFlashcard(currentIndex);
+            // Filter out known questions
+            flashcards = flashcards.filter(flashcard => !knownQuestions[flashcard.question]);
+            if (flashcards.length === 0) {
+                alert('All flashcards in this category are known!');
+            } else {
+                displayFlashcard(currentIndex);
+            }
         })
         .catch(error => {
             console.error('Error loading flashcards:', error);
@@ -119,10 +126,14 @@ document.getElementById('show-answer').addEventListener('click', () => {
 });
 
 document.getElementById('next-flashcard').addEventListener('click', () => {
+    nextFlashcard();
+});
+
+function nextFlashcard() {
     currentIndex = (currentIndex + 1) % flashcards.length;
     displayFlashcard(currentIndex);
     animateElement(document.getElementById('next-flashcard'), 'shake');
-});
+}
 
 document.getElementById('read-question').addEventListener('click', () => {
     const questionText = document.getElementById('question').innerText;
