@@ -513,6 +513,126 @@
         {
             "question": "What is the difference between a virus and a worm?",
             "answer": "A virus requires a host program to spread, while a worm can self-replicate and spread independently."
+        },
+        {
+            "question": "Which of the following is NOT a common laptop component? (A) Battery (B) Keyboard (C) Graphics card (D) Memory",
+            "answer": "C"
+        },
+        {
+            "question": "A user complains that their laptop is running slowly. Which of the following components is LEAST likely to be the cause? (A) Hard disk drive (HDD) (B) Solid-state drive (SSD) (C) Wireless card (D) Insufficient memory",
+            "answer": "C"
+        },
+        {
+            "question": "Which of the following is an advantage of using an SSD over an HDD in a laptop? (A) Higher storage capacity (B) Lower cost (C) Faster data access (D) Quieter operation",
+            "answer": "C"
+        },
+        {
+            "question": "A user reports that their laptop's battery life has decreased significantly. Which of the following is the most likely cause? (A) The battery has reached the end of its lifespan (B) The laptop is overheating (C) The wireless card is malfunctioning (D) The keyboard is damaged",
+            "answer": "A"
+        },
+        {
+            "question": "Which of the following laptop components can be replaced by the user without professional assistance? (A) Battery (B) Keyboard (C) Memory (D) All of the above",
+            "answer": "D"
+        },
+        {
+            "question": "What is the first step in the troubleshooting process outlined in the video? (A) Establish a theory of probable cause (B) Identify the problem (C) Establish a plan of action (D) Verify full system functionality",
+            "answer": "B"
+        },
+        {
+            "question": "Which troubleshooting step involves comparing the current state of the device to its normal operating conditions? (A) Identify the problem (B) Establish a theory of probable cause (C) Test the theory to determine cause (D) Establish a plan of action",
+            "answer": "A"
+        },
+        {
+            "question": "In which step of the troubleshooting process do you research potential solutions and gather information? (A) Verify full system functionality (B) Establish a plan of action (C) Test the theory to determine cause (D) Establish a theory of probable cause",
+            "answer": "D"
+        },
+        {
+            "question": "What is the purpose of the 'Verify full system functionality' step in troubleshooting? (A) To confirm that the problem has been resolved (B) To identify any additional issues (C) To prevent the problem from recurring (D) All of the above",
+            "answer": "D"
+        },
+        {
+            "question": "Which of the following is NOT a troubleshooting method mentioned in the video? (A) Replace the suspected faulty component (B) Restart the computer (C) Reinstall the operating system (D) Check for loose cables",
+            "answer": "C"
+        },
+        {
+            "question": "What is the first step in building a PC? (A) Installing the motherboard (B) Applying thermal paste (C) Installing the CPU (D) Choosing the right components",
+            "answer": "D"
+        },
+        {
+            "question": "Which component is responsible for managing the flow of data between the CPU, memory, and other peripherals? (A) CPU cooler (B) Motherboard (C) RAM (D) Power supply",
+            "answer": "B"
+        },
+        {
+            "question": "What is the primary function of thermal paste? (A) To cool the CPU (B) To insulate the CPU (C) To prevent electrical shorts (D) To fill microscopic gaps between the CPU and the cooler",
+            "answer": "D"
+        },
+        {
+            "question": "Which type of storage device is generally faster and more reliable? (A) Hard disk drive (HDD) (B) Solid-state drive (SSD) (C) Optical drive (D) Tape drive",
+            "answer": "B"
+        },
+        {
+            "question": "Which of the following is NOT a typical component found in a PC build? (A) Graphics card (B) Sound card (C) Network card (D) Video projector",
+            "answer": "D"
+        },
+        {
+            "question": "What is the primary purpose of a CPU? (A) To store data (B) To display images (C) To execute instructions (D) To provide power to the system",
+            "answer": "C"
+        },
+        {
+            "question": "What are the two main components of a CPU? (A) Control unit and arithmetic logic unit (ALU) (B) RAM and ROM (C) Northbridge and Southbridge (D) Motherboard and chipset",
+            "answer": "A"
+        },
+        {
+            "question": "Which of the following is NOT a function of the control unit? (A) Fetching instructions from memory (B) Decoding instructions (C) Executing instructions (D) Performing calculations",
+            "answer": "D"
+        },
+        {
+            "question": "What does ALU stand for? (A) Arithmetic Logic Unit (B) Array Logic Unit (C) Application Logic Unit (D) Advanced Logic Unit",
+            "answer": "A"
+        },
+        {
+            "question": "Which of the following is NOT a type of CPU architecture? (A) x86 (B) ARM (C) RISC-V (D) PCI Express",
+            "answer": "D"
+        },
+        {
+            "question": "What is the primary purpose of an operating system? (A) Manage hardware resources (B) Provide a user interface (C) Run applications (D) All of the above",
+            "answer": "D"
+        },
+        {
+            "question": "Which of the following is NOT a core function of an operating system? (A) File management (B) Memory management (C) Device management (D) Video editing",
+            "answer": "D"
+        },
+        {
+            "question": "What is the difference between a kernel and a shell? (A) The kernel is the core of the operating system, while the shell is a user interface (B) The kernel is a user interface, while the shell is the core of the operating system (C) There is no difference, they are interchangeable terms (D) The kernel manages hardware, while the shell manages software",
+            "answer": "A"
+        },
+        {
+            "question": "Which of the following is an example of a command-line interface (CLI)? (A) Windows Explorer (B) macOS Finder (C) Linux Terminal (D) Android Home Screen",
+            "answer": "C"
+        },
+        {
+            "question": "What is the purpose of a file system? (A) To organize and store data on a storage device (B) To execute programs (C) To manage network connections (D) To control input and output devices",
+            "answer": "A"
+        },
+        {
+            "question": "What were the two main cellular standards used in 2G networks? (A) GSM and LTE (B) CDMA and UMTS (C) GSM and CDMA (D) LTE and 5G",
+            "answer": "C"
+        },
+        {
+            "question": "Which generation of cellular technology first enabled features like GPS and video streaming? (A) 2G (B) 3G (C) 4G (D) 5G",
+            "answer": "B"
+        },
+        {
+            "question": "What is the approximate maximum download speed of 4G LTE-A? (A) 10 Mbps (B) 50 Mbps (C) 150 Mbps (D) 300 Mbps",
+            "answer": "D"
+        },
+        {
+            "question": "What does PRL stand for in the context of cellular networks? (A) Preferred Roaming List (B) Primary Radio Link (C) Packet Routing Layer (D) Protocol Reference List",
+            "answer": "A"
+        },
+        {
+            "question": "Which generation of cellular technology is expected to enable features like massive IoT deployments and high-quality video streaming? (A) 3G (B) 4G (C) 5G (D) 6G",
+            "answer": "C"
         }
     ]
 }
