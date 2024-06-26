@@ -653,6 +653,30 @@
         {
            "question": "What is the difference between ephemeral and non-ephemeral port numbers?",
            "answer": "Non-ephemeral port numbers, also known as well-known port numbers, are assigned to specific services. For example, port 80 is the non-ephemeral port number for web traffic. Ephemeral port numbers are temporary port numbers that are assigned to applications by the operating system. These port numbers are only used for the duration of a particular communication session."
+        },
+        {
+            "question": "What are the main components of a home network?",
+            "answer": "The main components of a home network are the modem, the router, and the switch. The modem is the device that connects your home to the internet. The router is the device that manages the traffic on your network. The switch is a device that allows you to connect multiple devices to your network."
+        },
+        {
+            "question": "What does a modem do?",
+            "answer": "The modem modulates and demodulates the signals used to communicate between your computer and the internet."
+        },
+        {
+            "question": "What does a router do?",
+            "answer": "A router connects to the modem and allows multiple devices to connect to it. It also acts as a firewall and can protect your home network from outside threats. Some routers also offer additional features, such as parental controls and Quality of Service (QoS)."
+        },
+        {
+            "question": "What does a switch do?",
+            "answer": "A switch is a device that allows you to connect multiple devices to your network. Switches typically have four, eight, or more ports. When you connect a device to a switch, it learns the device's MAC address and forwards traffic only to that device."
+        },
+        {
+            "question": "What is the purpose of Network Address Translation (NAT)?",
+            "answer": "The purpose of Network Address Translation (NAT) is to conserve the number of public IP addresses. When your router connects to the internet, it is assigned a public IP address. NAT allows multiple devices on your home network to share that public IP address."
+        },
+        {
+            "question": "What is the difference between wired and wireless connections?",
+            "answer": "Wired connections are typically faster and more reliable than wireless connections. However, wireless connections are more convenient because they do not require running cables. The choice of whether to use wired or wireless connections depends on your needs and preferences."
         }
     ]
 }
