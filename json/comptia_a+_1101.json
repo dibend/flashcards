@@ -677,6 +677,26 @@
         {
             "question": "What is the difference between wired and wireless connections?",
             "answer": "Wired connections are typically faster and more reliable than wireless connections. However, wireless connections are more convenient because they do not require running cables. The choice of whether to use wired or wireless connections depends on your needs and preferences."
+        },
+        {
+            "question": "What are ports?",
+            "answer": "Ports are used by devices to communicate with each other on a network. Different services use different ports."
+        },
+        {
+            "question": "What is a firewall?",
+            "answer": "A firewall is a device that filters traffic on a network. It can be used to allow or disallow traffic based on the port number."
+        },
+        {
+            "question": "What is the purpose of port numbers?",
+            "answer": "Port numbers are used to identify different services on a device. When data is sent to a device, the port number specifies which service the data should be delivered to."
+        },
+        {
+            "question": "What are some of the common port numbers used in networking?",
+            "answer": "Some of the common port numbers used in networking include:\n\n* FTP (File Transfer Protocol) - TCP ports 20 and 21\n* SSH (Secure Shell) - TCP port 22\n* Telnet - TCP port 23\n* SMTP (Simple Mail Transfer Protocol) - TCP port 25\n* DNS (Domain Name System) - UDP port 53\n* DHCP (Dynamic Host Configuration Protocol) - UDP ports 67 and 68\n* HTTP (Hypertext Transfer Protocol) - TCP port 80\n* HTTPS (Secure Hypertext Transfer Protocol) - TCP port 443\n* POP3 (Post Office Protocol Version 3) - TCP port 110\n* IMAP (Internet Message Access Protocol) - TCP port 143\n* SMB (Server Message Block) - TCP port 445\n* SNMP (Simple Network Management Protocol) - UDP ports 161 and 162\n* LDAP (Lightweight Directory Access Protocol) - TCP port 389\n* RDP (Remote Desktop Protocol) - TCP port 3389"
+        },
+        {
+            "question": "How can I remember all of the different port numbers?",
+            "answer": "There is no need to memorize all of the different port numbers. As you continue to use them, you will become more familiar with them."
         }
     ]
 }
