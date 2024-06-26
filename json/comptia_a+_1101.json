@@ -633,6 +633,26 @@
         {
             "question": "Which generation of cellular technology is expected to enable features like massive IoT deployments and high-quality video streaming? (A) 3G (B) 4G (C) 5G (D) 6G",
             "answer": "C"
+        },
+        {
+            "question": "What is the metaphor used to describe how data is transported across a network?",
+            "answer": "The video uses a moving truck metaphor to describe how data is transported across a network. The truck itself represents the internet protocol (IP), and the boxes in the truck represent the data. The information inside the boxes specifies what application or function the data belongs to."
+        },
+        {
+            "question": "What are the different parts of an Ethernet frame?",
+            "answer": "An Ethernet frame consists of three parts: the header, the payload, and the trailer. The header contains information about the sender and receiver of the frame. The payload contains the actual data being transported. The trailer contains error-checking information."
+        },
+        {
+            "question": "What is the difference between TCP and UDP?",
+            "answer": "TCP (Transmission Control Protocol) is a connection-oriented protocol. This means that a connection is established between the sender and receiver before data is sent. TCP also guarantees reliable delivery of data, meaning that it will resend any packets that are lost or corrupted. UDP (User Datagram Protocol) is a connectionless protocol. This means that there is no connection established between the sender and receiver before data is sent. UDP does not guarantee reliable delivery of data."
+        },
+        {
+           "question": "What are port numbers used for?",
+           "answer": "Port numbers are used to identify different applications on a device. When data is sent to a device, the port number specifies which application the data should be delivered to. For example, port 80 is the well-known port number for web traffic. This means that when a web browser sends data to a server, it sends the data to port 80 on the server."
+        },
+        {
+           "question": "What is the difference between ephemeral and non-ephemeral port numbers?",
+           "answer": "Non-ephemeral port numbers, also known as well-known port numbers, are assigned to specific services. For example, port 80 is the non-ephemeral port number for web traffic. Ephemeral port numbers are temporary port numbers that are assigned to applications by the operating system. These port numbers are only used for the duration of a particular communication session."
         }
     ]
 }
