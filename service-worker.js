@@ -2,7 +2,7 @@ const cacheName = 'comptia-flashcards-v1';
 const assetsToCache = [
   '/',
   '/index.html',
-  '/styles.css',
+  '/style.css',
   '/script.js',
   '/icons/icon-192x192.png'
 ];
