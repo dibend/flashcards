@@ -1,7 +1,8 @@
 {
     "comptia_a+_1101": [
         {
-            "question": "Which of the following answers refer to common battery types that can be found in modern portable devices? (Select 2 answers) \nA. Lithium-ion (Li-ion) \nB. Nickel Metal Hydride (NiMH) \nC. Lithium-ion Polymer (LiPo) \nD. Alkaline", "answer": "A, C"
+            "question": "Which of the following answers refer to common battery types that can be found in modern portable devices? (Select 2 answers) \nA. Lithium-ion (Li-ion) \nB. Nickel Metal Hydride (NiMH) \nC. Lithium-ion Polymer (LiPo) \nD. Alkaline",
+            "answer": "A, C"
         },
         {
             "question": "What is the primary purpose of the BIOS in a computer system?",
@@ -44,7 +45,8 @@
             "answer": "5 Gbps"
         },
         {
-            "question": "Which of the following is an example of biometric authentication? \nA. Password \nB. Fingerprint scanner \nC. PIN \nD. Security question", "answer": "B"
+            "question": "Which of the following is an example of biometric authentication? \nA. Password \nB. Fingerprint scanner \nC. PIN \nD. Security question",
+            "answer": "B"
         },
         {
             "question": "What is the purpose of thermal paste in a computer system?",
@@ -279,8 +281,8 @@
             "answer": "It connects directly to the motherboard, often providing faster data transfer rates compared to SATA drives."
         },
         {
-        "question": "What is the purpose of a loopback plug?",
-        "answer": "To test network interfaces and ensure proper transmission and reception of signals."
+            "question": "What is the purpose of a loopback plug?",
+            "answer": "To test network interfaces and ensure proper transmission and reception of signals."
         },
         {
             "question": "Which tool is used to attach RJ-45 connectors to Ethernet cables?",
@@ -314,46 +316,166 @@
             "question": "Which component is responsible for converting AC power to DC power in a computer?",
             "answer": "Power Supply Unit (PSU)"
         },
-        {"question": "What type of connector is used for POTS lines?", "answer": "RJ-11"},
-        {"question": "What is the maximum data transfer rate of USB 3.0?", "answer": "5 Gbps"},
-        {"question": "Which type of printer uses toner?", "answer": "Laser printer"},
-        {"question": "What does POST stand for?", "answer": "Power-On Self-Test"},
-        {"question": "What type of expansion slot is used for modern graphics cards?", "answer": "PCIe"},
-        {"question": "What is the purpose of a surge protector?", "answer": "Protect against voltage spikes"},
-        {"question": "What type of connector is used for connecting a monitor to a computer?", "answer": "VGA, DVI, HDMI or DisplayPort"},
-        {"question": "What does BIOS stand for?", "answer": "Basic Input/Output System"},
-        {"question": "What is the purpose of a heat sink?", "answer": "Dissipate heat from a component"},
-        {"question": "What type of connector is used for Ethernet cables?", "answer": "RJ-45"},
-        {"question": "What is the purpose of a firewall?", "answer": "Control incoming and outgoing network traffic"},
-        {"question": "What does SSD stand for?", "answer": "Solid State Drive"},
-        {"question": "Which type of expansion card is used for adding storage to a computer?", "answer": "SATA card"},
-        {"question": "What is the purpose of a CPU?", "answer": "Execute instructions"},
-        {"question": "What does RAM stand for?", "answer": "Random Access Memory"},
-        {"question": "What type of connector is used for connecting a keyboard to a computer?", "answer": "PS/2 or USB"},
-        {"question": "What is the purpose of an operating system?", "answer": "Manage hardware and software resources"},
-        {"question": "What is the purpose of a router?", "answer": "Connect multiple networks together"},
-        {"question": "What does IP stand for?", "answer": "Internet Protocol"},
-        {"question": "Which type of RAM is volatile?", "answer": "DRAM"},
-        {"question": "What is the purpose of a CMOS battery?", "answer": "Maintain system settings when the computer is powered off"},
-        {"question": "What is the purpose of a thermal paste?", "answer": "Improve heat transfer between a CPU and a heat sink"},
-        {"question": "What is the purpose of a fan header on a motherboard?", "answer": "Connect a fan to the motherboard"},
-        {"question": "What is the purpose of a RAID array?", "answer": "Provide data redundancy and/or performance improvement"},
-        {"question": "What is the purpose of a virtual machine?", "answer": "Run multiple operating systems on a single physical computer"},
-        {"question": "What is the purpose of a switch?", "answer": "Connect multiple devices on a network"},
-        {"question": "What is the purpose of a DHCP server?", "answer": "Assign IP addresses to devices on a network"},
-        {"question": "What is the maximum data transfer rate of USB 2.0?", "answer": "480 Mbps"},
-        {"question": "What type of connector is used for fiber optic cables?", "answer": "LC or SC"},
-        {"question": "What is the purpose of a UPS?", "answer": "Provide battery backup power to a computer"},
-        {"question": "What is the purpose of a KVM switch?", "answer": "Control multiple computers with a single keyboard, video monitor, and mouse"},
-        {"question": "What is the purpose of a web browser?", "answer": "Access websites on the internet"},
-        {"question": "What is the purpose of a VPN?", "answer": "Create a secure connection over a public network"},
-        {"question": "What is the purpose of antivirus software?", "answer": "Protect a computer from malware"},
-        {"question": "What is the purpose of a file compression utility?", "answer": "Reduce the size of files"},
-        {"question": "What is the purpose of a backup?", "answer": "Create a copy of data in case of data loss"},
-        {"question": "What is the purpose of a restore?", "answer": "Recover data from a backup"},
-        {"question": "What is the purpose of a disaster recovery plan?", "answer": "Outline the steps to take in case of a disaster"},
-        {"question": "What is the purpose of a change management process?", "answer": "Ensure that changes to IT systems are made in a controlled manner"},
-        {"question": "What is the purpose of an incident management process?", "answer": "Respond to and resolve IT incidents"},
+        {
+            "question": "What type of connector is used for POTS lines?",
+            "answer": "RJ-11"
+        },
+        {
+            "question": "What is the maximum data transfer rate of USB 3.0?",
+            "answer": "5 Gbps"
+        },
+        {
+            "question": "Which type of printer uses toner?",
+            "answer": "Laser printer"
+        },
+        {
+            "question": "What does POST stand for?",
+            "answer": "Power-On Self-Test"
+        },
+        {
+            "question": "What type of expansion slot is used for modern graphics cards?",
+            "answer": "PCIe"
+        },
+        {
+            "question": "What is the purpose of a surge protector?",
+            "answer": "Protect against voltage spikes"
+        },
+        {
+            "question": "What type of connector is used for connecting a monitor to a computer?",
+            "answer": "VGA, DVI, HDMI or DisplayPort"
+        },
+        {
+            "question": "What does BIOS stand for?",
+            "answer": "Basic Input/Output System"
+        },
+        {
+            "question": "What is the purpose of a heat sink?",
+            "answer": "Dissipate heat from a component"
+        },
+        {
+            "question": "What type of connector is used for Ethernet cables?",
+            "answer": "RJ-45"
+        },
+        {
+            "question": "What is the purpose of a firewall?",
+            "answer": "Control incoming and outgoing network traffic"
+        },
+        {
+            "question": "What does SSD stand for?",
+            "answer": "Solid State Drive"
+        },
+        {
+            "question": "Which type of expansion card is used for adding storage to a computer?",
+            "answer": "SATA card"
+        },
+        {
+            "question": "What is the purpose of a CPU?",
+            "answer": "Execute instructions"
+        },
+        {
+            "question": "What does RAM stand for?",
+            "answer": "Random Access Memory"
+        },
+        {
+            "question": "What type of connector is used for connecting a keyboard to a computer?",
+            "answer": "PS/2 or USB"
+        },
+        {
+            "question": "What is the purpose of an operating system?",
+            "answer": "Manage hardware and software resources"
+        },
+        {
+            "question": "What is the purpose of a router?",
+            "answer": "Connect multiple networks together"
+        },
+        {
+            "question": "What does IP stand for?",
+            "answer": "Internet Protocol"
+        },
+        {
+            "question": "Which type of RAM is volatile?",
+            "answer": "DRAM"
+        },
+        {
+            "question": "What is the purpose of a CMOS battery?",
+            "answer": "Maintain system settings when the computer is powered off"
+        },
+        {
+            "question": "What is the purpose of a thermal paste?",
+            "answer": "Improve heat transfer between a CPU and a heat sink"
+        },
+        {
+            "question": "What is the purpose of a fan header on a motherboard?",
+            "answer": "Connect a fan to the motherboard"
+        },
+        {
+            "question": "What is the purpose of a RAID array?",
+            "answer": "Provide data redundancy and/or performance improvement"
+        },
+        {
+            "question": "What is the purpose of a virtual machine?",
+            "answer": "Run multiple operating systems on a single physical computer"
+        },
+        {
+            "question": "What is the purpose of a switch?",
+            "answer": "Connect multiple devices on a network"
+        },
+        {
+            "question": "What is the purpose of a DHCP server?",
+            "answer": "Assign IP addresses to devices on a network"
+        },
+        {
+            "question": "What is the maximum data transfer rate of USB 2.0?",
+            "answer": "480 Mbps"
+        },
+        {
+            "question": "What type of connector is used for fiber optic cables?",
+            "answer": "LC or SC"
+        },
+        {
+            "question": "What is the purpose of a UPS?",
+            "answer": "Provide battery backup power to a computer"
+        },
+        {
+            "question": "What is the purpose of a KVM switch?",
+            "answer": "Control multiple computers with a single keyboard, video monitor, and mouse"
+        },
+        {
+            "question": "What is the purpose of a web browser?",
+            "answer": "Access websites on the internet"
+        },
+        {
+            "question": "What is the purpose of a VPN?",
+            "answer": "Create a secure connection over a public network"
+        },
+        {
+            "question": "What is the purpose of antivirus software?",
+            "answer": "Protect a computer from malware"
+        },
+        {
+            "question": "What is the purpose of a file compression utility?",
+            "answer": "Reduce the size of files"
+        },
+        {
+            "question": "What is the purpose of a backup?",
+            "answer": "Create a copy of data in case of data loss"
+        },
+        {
+            "question": "What is the purpose of a restore?",
+            "answer": "Recover data from a backup"
+        },
+        {
+            "question": "What is the purpose of a disaster recovery plan?",
+            "answer": "Outline the steps to take in case of a disaster"
+        },
+        {
+            "question": "What is the purpose of a change management process?",
+            "answer": "Ensure that changes to IT systems are made in a controlled manner"
+        },
+        {
+            "question": "What is the purpose of an incident management process?",
+            "answer": "Respond to and resolve IT incidents"
+        },
         {
             "question": "What are the three common types of flash memory used in computing devices?",
             "answer": "NAND, NOR, and eMMC (Embedded Multi-Media Card)"
@@ -615,12 +737,12 @@
             "answer": "TCP (Transmission Control Protocol) is a connection-oriented protocol. This means that a connection is established between the sender and receiver before data is sent. TCP also guarantees reliable delivery of data, meaning that it will resend any packets that are lost or corrupted. UDP (User Datagram Protocol) is a connectionless protocol. This means that there is no connection established between the sender and receiver before data is sent. UDP does not guarantee reliable delivery of data."
         },
         {
-           "question": "What are port numbers used for?",
-           "answer": "Port numbers are used to identify different applications on a device. When data is sent to a device, the port number specifies which application the data should be delivered to. For example, port 80 is the well-known port number for web traffic. This means that when a web browser sends data to a server, it sends the data to port 80 on the server."
+            "question": "What are port numbers used for?",
+            "answer": "Port numbers are used to identify different applications on a device. When data is sent to a device, the port number specifies which application the data should be delivered to. For example, port 80 is the well-known port number for web traffic. This means that when a web browser sends data to a server, it sends the data to port 80 on the server."
         },
         {
-           "question": "What is the difference between ephemeral and non-ephemeral port numbers?",
-           "answer": "Non-ephemeral port numbers, also known as well-known port numbers, are assigned to specific services. For example, port 80 is the non-ephemeral port number for web traffic. Ephemeral port numbers are temporary port numbers that are assigned to applications by the operating system. These port numbers are only used for the duration of a particular communication session."
+            "question": "What is the difference between ephemeral and non-ephemeral port numbers?",
+            "answer": "Non-ephemeral port numbers, also known as well-known port numbers, are assigned to specific services. For example, port 80 is the non-ephemeral port number for web traffic. Ephemeral port numbers are temporary port numbers that are assigned to applications by the operating system. These port numbers are only used for the duration of a particular communication session."
         },
         {
             "question": "What are the main components of a home network?",
@@ -662,14 +784,38 @@
             "question": "What are some of the common port numbers used in networking?",
             "answer": "Some of the common port numbers used in networking include:\n\n* FTP (File Transfer Protocol) - TCP ports 20 and 21\n* SSH (Secure Shell) - TCP port 22\n* Telnet - TCP port 23\n* SMTP (Simple Mail Transfer Protocol) - TCP port 25\n* DNS (Domain Name System) - UDP port 53\n* DHCP (Dynamic Host Configuration Protocol) - UDP ports 67 and 68\n* HTTP (Hypertext Transfer Protocol) - TCP port 80\n* HTTPS (Secure Hypertext Transfer Protocol) - TCP port 443\n* POP3 (Post Office Protocol Version 3) - TCP port 110\n* IMAP (Internet Message Access Protocol) - TCP port 143\n* SMB (Server Message Block) - TCP port 445\n* SNMP (Simple Network Management Protocol) - UDP ports 161 and 162\n* LDAP (Lightweight Directory Access Protocol) - TCP port 389\n* RDP (Remote Desktop Protocol) - TCP port 3389"
         },
-        {"question": "What is the purpose of a DHCP server in a network?", "answer": "A DHCP server dynamically assigns IP addresses and other network configuration parameters to devices on a network, allowing them to communicate effectively."},
-        {"question": "What are the differences between single-mode and multi-mode fiber optic cables?", "answer": "Single-mode fiber optic cables have a smaller core and are designed for long-distance communication, while multi-mode fiber optic cables have a larger core and are used for shorter distances with higher data transmission rates."},
-        {"question": "How does VLAN improve network management?", "answer": "VLAN (Virtual Local Area Network) segments a physical network into multiple logical networks, improving traffic management, enhancing security, and reducing broadcast domains."},
-        {"question": "What are the primary functions of a motherboard's BIOS?", "answer": "The BIOS (Basic Input/Output System) initializes and tests hardware components during the booting process, provides runtime services for operating systems and programs, and facilitates system configuration settings."},
-        {"question": "What are the key differences between SATA and PATA storage interfaces?", "answer": "SATA (Serial ATA) interfaces use serial communication for data transfer, offering faster speeds and improved efficiency compared to PATA (Parallel ATA), which uses parallel communication and is now considered obsolete for most modern applications."},
-        {"question": "Explain the significance of T568A and T568B wiring standards.", "answer": "T568A and T568B are wiring standards for terminating network cables. They ensure compatibility and interoperability between network devices, with each standard having a different pinout configuration for the wires inside the cable."},
-        {"question": "Describe the role of the power supply unit (PSU) in a computer.", "answer": "The PSU converts AC (Alternating Current) from the power outlet into DC (Direct Current) required by computer components, and regulates the voltage to ensure stable and reliable operation of the system."},
-        {"question": "What are the advantages of using UEFI over traditional BIOS?", "answer": "UEFI (Unified Extensible Firmware Interface) provides a more user-friendly interface, faster boot times, larger disk support, and better security features compared to traditional BIOS."},
+        {
+            "question": "What is the purpose of a DHCP server in a network?",
+            "answer": "A DHCP server dynamically assigns IP addresses and other network configuration parameters to devices on a network, allowing them to communicate effectively."
+        },
+        {
+            "question": "What are the differences between single-mode and multi-mode fiber optic cables?",
+            "answer": "Single-mode fiber optic cables have a smaller core and are designed for long-distance communication, while multi-mode fiber optic cables have a larger core and are used for shorter distances with higher data transmission rates."
+        },
+        {
+            "question": "How does VLAN improve network management?",
+            "answer": "VLAN (Virtual Local Area Network) segments a physical network into multiple logical networks, improving traffic management, enhancing security, and reducing broadcast domains."
+        },
+        {
+            "question": "What are the primary functions of a motherboard's BIOS?",
+            "answer": "The BIOS (Basic Input/Output System) initializes and tests hardware components during the booting process, provides runtime services for operating systems and programs, and facilitates system configuration settings."
+        },
+        {
+            "question": "What are the key differences between SATA and PATA storage interfaces?",
+            "answer": "SATA (Serial ATA) interfaces use serial communication for data transfer, offering faster speeds and improved efficiency compared to PATA (Parallel ATA), which uses parallel communication and is now considered obsolete for most modern applications."
+        },
+        {
+            "question": "Explain the significance of T568A and T568B wiring standards.",
+            "answer": "T568A and T568B are wiring standards for terminating network cables. They ensure compatibility and interoperability between network devices, with each standard having a different pinout configuration for the wires inside the cable."
+        },
+        {
+            "question": "Describe the role of the power supply unit (PSU) in a computer.",
+            "answer": "The PSU converts AC (Alternating Current) from the power outlet into DC (Direct Current) required by computer components, and regulates the voltage to ensure stable and reliable operation of the system."
+        },
+        {
+            "question": "What are the advantages of using UEFI over traditional BIOS?",
+            "answer": "UEFI (Unified Extensible Firmware Interface) provides a more user-friendly interface, faster boot times, larger disk support, and better security features compared to traditional BIOS."
+        },
         {
             "question": "What are network devices?",
             "answer": "Network devices are used to connect computers and other devices to each other so that they can share information and resources."
@@ -713,6 +859,118 @@
         {
             "question": "What are NICs?",
             "answer": "NICs (Network Interface Cards) are used to provide connectivity to a network. They can be built into a device or plugged into an expansion slot."
+        },
+        {
+            "question": "What is SDN?",
+            "answer": "SDN is Software Defined Networking, a networking approach that virtualizes network devices and creates a software-based infrastructure."
+        },
+        {
+            "question": "What are the three main layers of SDN?",
+            "answer": "The three main layers of SDN are the infrastructure layer (data plane), control layer (control plane), and application layer (management plane)."
+        },
+        {
+            "question": "What is the infrastructure layer responsible for?",
+            "answer": "The infrastructure layer is responsible for forwarding, trunking, encrypting, and network address translation."
+        },
+        {
+            "question": "What is the control layer responsible for?",
+            "answer": "The control layer contains information on where the traffic is going. This includes routing protocols, forwarding tables, and network address translation tables."
+        },
+        {
+            "question": "What is the application layer responsible for?",
+            "answer": "The application layer is used to manage the device. This includes logging in, accessing the device via an API, or using a graphical front end."
+        },
+        {
+            "question": "What are the benefits of using SDN?",
+            "answer": "Some of the benefits of using SDN are increased scalability, agility, and flexibility. It can also help to reduce operational costs and improve network performance."
+        },
+        {
+            "question": "What is 802.11?",
+            "answer": "802.11 is the most common wireless network standard, also known as Wi-Fi."
+        },
+        {
+            "question": "What is 802.11a?",
+            "answer": "802.11a is a wireless standard operating in the 5 GHz frequency range with a maximum speed of 54 Mbps."
+        },
+        {
+            "question": "What is 802.11b?",
+            "answer": "802.11b is a wireless standard operating in the 2.4 GHz frequency range with a maximum speed of 11 Mbps."
+        },
+        {
+            "question": "What is 802.11g?",
+            "answer": "802.11g is an upgrade to 802.11b operating in the 2.4 GHz frequency range with a maximum speed of 54 Mbps."
+        },
+        {
+            "question": "What is 802.11n (Wi-Fi 4)?",
+            "answer": "802.11n is an upgrade to 802.11a/b/g, operating in both 2.4 GHz and 5 GHz frequencies with a maximum theoretical throughput of 600 Mbps. It introduced MIMO (multiple input, multiple output) technology."
+        },
+        {
+            "question": "What is 802.11ac (Wi-Fi 5)?",
+            "answer": "802.11ac operates exclusively in the 5 GHz frequency range with a maximum theoretical throughput of nearly 7 Gbps. It uses MU-MIMO (multi-user MIMO) technology."
+        },
+        {
+            "question": "What is 802.11ax (Wi-Fi 6)?",
+            "answer": "802.11ax is the latest standard, operating in both 2.4 GHz and 5 GHz frequencies with a maximum theoretical throughput of 9.6 Gbps. It was designed for crowded areas."
+        },
+        {
+            "question": "What is RFID?",
+            "answer": "Radio Frequency Identification (RFID) is a technology that uses radio waves to identify objects."
+        },
+        {
+            "question": "What is NFC?",
+            "answer": "Near Field Communication (NFC) is a type of RFID that allows for two-way communication between devices."
+        },
+        {
+            "question": "What is DNS?",
+            "answer": "DNS stands for Domain Name System, a service that translates domain names (e.g., www.google.com) into IP addresses that computers can understand."
+        },
+        {
+            "question": "What is DHCP?",
+            "answer": "DHCP stands for Dynamic Host Configuration Protocol. It's a network management protocol that dynamically assigns an IP address and other network configuration parameters to each device on a network so they can communicate with other IP networks."
+        },
+        {
+            "question": "What is a File Server?",
+            "answer": "A file server is a computer responsible for the central storage and management of data files so that other computers on the same network can access them."
+        },
+        {
+            "question": "What is a Print Server?",
+            "answer": "A print server is a computer or device that connects printers to client computers over a network. It manages print jobs and queues, allowing multiple users to share the same printer."
+        },
+        {
+            "question": "What is a Mail Server?",
+            "answer": "A mail server is an application that receives incoming e-mails from local users (people within the same domain) and remote senders and forwards outgoing e-mails for delivery."
+        },
+        {
+            "question": "What is Syslog?",
+            "answer": "Syslog is a standard protocol used to send system log or event messages to a central server, called a Syslog server, for storage, analysis, and reporting."
+        },
+        {
+            "question": "What is a SIEM?",
+            "answer": "SIEM stands for Security Information and Event Management. It is a software solution that aggregates and analyzes activity from many different resources across your entire IT infrastructure."
+        },
+        {
+            "question": "What is a Web Server?",
+            "answer": "A web server is software and hardware that uses HTTP (Hypertext Transfer Protocol) and other protocols to respond to client requests made over the World Wide Web."
+        },
+        {
+            "question": "What is an Authentication Server?",
+            "answer": "An authentication server is a server that is responsible for verifying the identity of users and devices. It is a key component of network security."
+        },
+        {
+            "question": "What is spam?",
+            "answer": "Spam is unsolicited or undesired electronic messages, often sent in bulk to a large number of users."
+        },
+        {
+            "question": "What is a Mail Gateway?",
+            "answer": "A mail gateway is a server that sits between an email sender and receiver, filtering and processing incoming and outgoing email messages."
+        },
+        {
+            "question": "What is NGFW?",
+            "answer": "NGFW stands for Next-Generation Firewall. It is a type of firewall that combines traditional firewall technology with other network security functions, such as intrusion prevention systems (IPS), application awareness, and user control."
+        },
+        {
+            "question": "What is a UTM device?",
+            "answer": "UTM stands for Unified Threat Management. A UTM device is an all-in-one network security solution that combines multiple security features, such as firewall, intrusion prevention, antivirus, content filtering, and VPN."
         }
     ]
 }
