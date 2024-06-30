@@ -661,6 +661,58 @@
         {
             "question": "What are some of the common port numbers used in networking?",
             "answer": "Some of the common port numbers used in networking include:\n\n* FTP (File Transfer Protocol) - TCP ports 20 and 21\n* SSH (Secure Shell) - TCP port 22\n* Telnet - TCP port 23\n* SMTP (Simple Mail Transfer Protocol) - TCP port 25\n* DNS (Domain Name System) - UDP port 53\n* DHCP (Dynamic Host Configuration Protocol) - UDP ports 67 and 68\n* HTTP (Hypertext Transfer Protocol) - TCP port 80\n* HTTPS (Secure Hypertext Transfer Protocol) - TCP port 443\n* POP3 (Post Office Protocol Version 3) - TCP port 110\n* IMAP (Internet Message Access Protocol) - TCP port 143\n* SMB (Server Message Block) - TCP port 445\n* SNMP (Simple Network Management Protocol) - UDP ports 161 and 162\n* LDAP (Lightweight Directory Access Protocol) - TCP port 389\n* RDP (Remote Desktop Protocol) - TCP port 3389"
+        },
+        {"question": "What is the purpose of a DHCP server in a network?", "answer": "A DHCP server dynamically assigns IP addresses and other network configuration parameters to devices on a network, allowing them to communicate effectively."},
+        {"question": "What are the differences between single-mode and multi-mode fiber optic cables?", "answer": "Single-mode fiber optic cables have a smaller core and are designed for long-distance communication, while multi-mode fiber optic cables have a larger core and are used for shorter distances with higher data transmission rates."},
+        {"question": "How does VLAN improve network management?", "answer": "VLAN (Virtual Local Area Network) segments a physical network into multiple logical networks, improving traffic management, enhancing security, and reducing broadcast domains."},
+        {"question": "What are the primary functions of a motherboard's BIOS?", "answer": "The BIOS (Basic Input/Output System) initializes and tests hardware components during the booting process, provides runtime services for operating systems and programs, and facilitates system configuration settings."},
+        {"question": "What are the key differences between SATA and PATA storage interfaces?", "answer": "SATA (Serial ATA) interfaces use serial communication for data transfer, offering faster speeds and improved efficiency compared to PATA (Parallel ATA), which uses parallel communication and is now considered obsolete for most modern applications."},
+        {"question": "Explain the significance of T568A and T568B wiring standards.", "answer": "T568A and T568B are wiring standards for terminating network cables. They ensure compatibility and interoperability between network devices, with each standard having a different pinout configuration for the wires inside the cable."},
+        {"question": "Describe the role of the power supply unit (PSU) in a computer.", "answer": "The PSU converts AC (Alternating Current) from the power outlet into DC (Direct Current) required by computer components, and regulates the voltage to ensure stable and reliable operation of the system."},
+        {"question": "What are the advantages of using UEFI over traditional BIOS?", "answer": "UEFI (Unified Extensible Firmware Interface) provides a more user-friendly interface, faster boot times, larger disk support, and better security features compared to traditional BIOS."},
+        {
+            "question": "What are network devices?",
+            "answer": "Network devices are used to connect computers and other devices to each other so that they can share information and resources."
+        },
+        {
+            "question": "What are routers?",
+            "answer": "Routers are used to forward traffic between different IP subnets. They use the destination IP address in a packet to determine the next hop on its way to the final destination."
+        },
+        {
+            "question": "What are switches?",
+            "answer": "Switches forward traffic based on the destination MAC address inside a frame. They are also able to forward traffic at very high speeds. Managed switches allow for configuration of different interfaces and prioritization of traffic. Unmanaged switches have very few configuration options."
+        },
+        {
+            "question": "What are access points?",
+            "answer": "Access points provide wireless connectivity for the local network. They bridge the wired network to the wireless network by forwarding decisions based on the destination MAC address."
+        },
+        {
+            "question": "What are patch panels?",
+            "answer": "Patch panels are used to connect devices to a switch in a wiring closet. They allow for easy moves, adds, and changes without having to re-cable the entire network."
+        },
+        {
+            "question": "What are firewalls?",
+            "answer": "Firewalls allow or disallow traffic through a network based on IP addresses and port numbers. Some firewalls can also act as an endpoint for an encrypted tunnel, a proxy, or a router."
+        },
+        {
+            "question": "What is Power over Ethernet (PoE)?",
+            "answer": "Power over Ethernet (PoE) allows a single cable to be used to transfer data and power a device. PoE can be delivered through a switch or a PoE injector."
+        },
+        {
+            "question": "What are hubs?",
+            "answer": "Hubs are outdated devices that are not very intelligent. Any data going into one interface on a hub is automatically copied and sent to all of the other interfaces."
+        },
+        {
+            "question": "What are modems?",
+            "answer": "Modems are used to connect to the internet over cable or telephone lines. Cable modems use a standard called DOCSIS (Data Over Cable Service Interface Specification). DSL modems use telephone lines and the standard is ADSL (Asymmetric Digital Subscriber Line)."
+        },
+        {
+            "question": "What are ONTs?",
+            "answer": "ONTs are used to convert fiber optic signals into signals that can be used inside of a home or business."
+        },
+        {
+            "question": "What are NICs?",
+            "answer": "NICs (Network Interface Cards) are used to provide connectivity to a network. They can be built into a device or plugged into an expansion slot."
         }
     ]
 }
