@@ -971,6 +971,222 @@
         {
             "question": "What is a UTM device?",
             "answer": "UTM stands for Unified Threat Management. A UTM device is an all-in-one network security solution that combines multiple security features, such as firewall, intrusion prevention, antivirus, content filtering, and VPN."
+        },
+        {
+            "question": "What are the technical specifications to be aware of when using an 802.11 network?",
+            "answer": "Frequency range, channel width, maximum data rate"
+        },
+        {
+            "question": "What are the different frequency ranges used by 802.11 standards?",
+            "answer": "2.4 GHz and 5 GHz"
+        },
+        {
+            "question": "Besides the frequency ranges, what else needs to be considered for better communication in 802.11 networks?",
+            "answer": "Channel selection"
+        },
+        {
+            "question": "Why are 5 gigahertz networks more popular than 2.4 gigahertz networks?",
+            "answer": "Less interference, more channels available"
+        },
+        {
+            "question": "How many channels are available in 2.4 gigahertz networks and 5 gigahertz networks?",
+            "answer": "2.4 GHz: 11 channels (3 non-overlapping), 5 GHz: 23 non-overlapping channels"
+        },
+        {
+            "question": "What is the ISM band?",
+            "answer": "Industrial, Scientific, and Medical band, a range of frequencies for unlicensed use"
+        },
+        {
+            "question": "What is the Bluetooth range for consumer devices?",
+            "answer": "Around 10 meters (30 feet)"
+        },
+        {
+            "question": "What are the technical specifications to be aware of when using an 802.11 network?",
+            "answer": "Frequency range, channel width, maximum data rate"
+        },
+        {
+            "question": "What are the different frequency ranges used by 802.11 standards?",
+            "answer": "2.4 GHz and 5 GHz"
+        },
+        {
+            "question": "Besides the frequency ranges, what else needs to be considered for better communication in 802.11 networks?",
+            "answer": "Channel selection"
+        },
+        {
+            "question": "Why are 5 gigahertz networks more popular than 2.4 gigahertz networks?",
+            "answer": "Less interference, more channels available"
+        },
+        {
+            "question": "How many channels are available in 2.4 gigahertz networks and 5 gigahertz networks?",
+            "answer": "2.4 GHz: 11 channels (3 non-overlapping), 5 GHz: 23 non-overlapping channels"
+        },
+        {
+            "question": "What is the ISM band?",
+            "answer": "Industrial, Scientific, and Medical band, a range of frequencies for unlicensed use"
+        },
+        {
+            "question": "What is the Bluetooth range for consumer devices?",
+            "answer": "Around 10 meters (30 feet)"
+        },
+        {
+            "question": "What service translates human-readable domain names into machine-readable IP addresses?",
+            "answer": "DNS (Domain Name System)"
+        },
+        {
+            "question": "Which protocol automatically assigns IP addresses and other configuration settings to devices on a network?",
+            "answer": "DHCP (Dynamic Host Configuration Protocol)"
+        },
+        {
+            "question": "What is the primary function of a file server?",
+            "answer": "Centralized storage and access of files for users"
+        },
+        {
+            "question": "What does a print server enable?",
+            "answer": "Sharing printers on a network"
+        },
+        {
+            "question": "Which type of server is responsible for sending and receiving emails?",
+            "answer": "Mail server"
+        },
+        {
+            "question": "What protocol is used to collect logs and messages from various devices on a network?",
+            "answer": "Syslog"
+        },
+        {
+            "question": "What is the purpose of an authentication server?",
+            "answer": "Centralized management of usernames and passwords for secure access to multiple services"
+        },
+        {
+            "question": "What is the process of identifying and filtering unwanted emails called?",
+            "answer": "Spam filtering"
+        },
+        {
+            "question": "What is the main function of a web server?",
+            "answer": "Storing, processing, and delivering web pages to users"
+        },
+        {
+            "question": "Which security device controls incoming and outgoing traffic on a network?",
+            "answer": "Firewall"
+        },
+        {
+            "question": "What is the purpose of a load balancer?",
+            "answer": "Distributing workloads across multiple servers to ensure optimal performance"
+        },
+        {
+            "question": "What acts as an intermediary between a user's computer and the internet, providing an extra layer of security and control?",
+            "answer": "Proxy server"
+        },
+        {
+            "question": "What is the acronym SCADA stand for?",
+            "answer": "Supervisory Control and Data Acquisition"
+        },
+        {
+            "question": "What are legacy systems?",
+            "answer": "Older computer systems still in use due to their critical functions"
+        },
+        {
+            "question": "What are embedded systems?",
+            "answer": "Devices with dedicated hardware and software designed for specific tasks"
+        },
+        {
+            "question": "What are IoT devices?",
+            "answer": "Everyday objects connected to the internet, capable of sending and receiving data"
+        },
+        {
+            "question": "What is the primary difference between IPv4 and IPv6 addresses in terms of their structure?",
+            "answer": "IPv4 uses 32 bits, while IPv6 uses 128 bits."
+        },
+        {
+            "question": "How is an IPv4 address typically represented?",
+            "answer": "Four decimal numbers separated by periods (e.g., 192.168.1.1)"
+        },
+        {
+            "question": "What is the format of an IPv6 address?",
+            "answer": "Hexadecimal, using a combination of letters and numbers (e.g., fe80::5d18:652:cffd:8f52)"
+        },
+        {
+            "question": "Why was IPv6 developed?",
+            "answer": "To address the shortage of available IPv4 addresses due to the increasing number of devices on the internet."
+        },
+        {
+            "question": "What is the purpose of a subnet mask in IP addressing?",
+            "answer": "To divide a network into smaller subnets."
+        },
+        {
+            "question": "What is the role of a default gateway in a network?",
+            "answer": "It's the IP address of the router that allows devices on a subnet to communicate with devices on other networks."
+        },
+        {
+            "question": "What is the function of the Domain Name System (DNS)?",
+            "answer": "To translate human-readable domain names (e.g., www.google.com) into machine-readable IP addresses."
+        },
+        {
+            "question": "What does DHCP stand for?",
+            "answer": "Dynamic Host Configuration Protocol"
+        },
+        {
+            "question": "What is the primary function of DHCP?",
+            "answer": "Automatically assigning IP addresses and other network configuration settings to devices."
+        },
+        {
+            "question": "What are the four steps of the DHCP process (DORA)?",
+            "answer": "Discover, Offer, Request, Acknowledge"
+        },
+        {
+            "question": "In which step of the DHCP process does a client device send a broadcast message to find a DHCP server?",
+            "answer": "Discover"
+        },
+        {
+            "question": "What happens if a device is configured for DHCP but no DHCP server is available?",
+            "answer": "The device will be assigned an APIPA (Automatic Private IP Addressing) address."
+        },
+        {
+            "question": "What are APIPA addresses used for?",
+            "answer": "Communication between devices on a local network when a DHCP server is not available."
+        },
+        {
+            "question": "What does DNS stand for?",
+            "answer": "Domain Name System"
+        },
+        {
+            "question": "What is the primary function of DNS?",
+            "answer": "Translating human-readable domain names into machine-readable IP addresses."
+        },
+        {
+            "question": "What are the components of a fully qualified domain name (FQDN)?",
+            "answer": "Top-level domain (TLD), second-level domain, and subdomain (optional)."
+        },
+        {
+            "question": "How does a DNS server resolve a domain name?",
+            "answer": "It uses a hierarchical structure, starting at the root level and working its way down until it finds the IP address associated with the domain name."
+        },
+        {
+            "question": "What is the purpose of an A record in DNS?",
+            "answer": "Maps a domain name to an IPv4 address."
+        },
+        {
+            "question": "What does an AAAA record do in DNS?",
+            "answer": "Maps a domain name to an IPv6 address."
+        },
+        {
+            "question": "Which DNS record specifies the mail server responsible for receiving email for a domain?",
+            "answer": "MX record"
+        },
+        {
+            "question": "What type of DNS record can store any arbitrary text information and is often used for email security?",
+            "answer": "TXT record"
+        },
+        {
+            "question": "What is the purpose of an SPF record?",
+            "answer": "Specifies which email servers are authorized to send email for a domain, helping to prevent email spoofing."
+        },
+        {
+            "question": "How does a DKIM record enhance email security?",
+            "answer": "It allows you to digitally sign outgoing email messages to ensure they haven't been tampered with in transit."
+        },
+        {
+            "question": "What is the function of a DMARC record?",
+            "answer": "Specifies how email servers should handle email messages that fail SPF or DKIM validation."
         }
     ]
 }
