@@ -1187,6 +1187,302 @@
         {
             "question": "What is the function of a DMARC record?",
             "answer": "Specifies how email servers should handle email messages that fail SPF or DKIM validation."
+        },
+        {
+            "question": "Which of the following are components you might find inside a PC? (Select the three best answers.) \n A. CPU \n B. Motherboard \n C. Keyboard \n D. Printer \n E. RAM \n F. Cable modem",
+            "answer": "A, B, E"
+        },
+        {
+            "question": "Which device retains data over the long term?",
+            "answer": "Storage drive"
+        },
+        {
+            "question": "To which type of technology would you install a x16 card?",
+            "answer": "PCIe"
+        },
+        {
+            "question": "Which computer process checks all your components during boot?",
+            "answer": "POST"
+        },
+        {
+            "question": "You are planning to use an older PC for trade shows in several different countries. The PC only needs to work as a basic kiosk with an Internet browser. Which of the following is the most important factor for you to consider?",
+            "answer": "Input voltage"
+        },
+        {
+            "question": "Which of the following could cause the POST to fail? (Select the two best answers.) \n A. CPU \n B. Power supply \n C. Memory \n D. Storage drive",
+            "answer": "A, B"
+        },
+        {
+            "question": "Which of the following might you find as part of a tablet computer? (Select the two best answers.) \n A. Flash memory \n B. SATA storage drive \n C. Multi-touch touchscreen \n D. 24-inch display",
+            "answer": "A, C"
+        },
+        {
+            "question": "Which of the following cloud concepts can allow for scalable services to clients?",
+            "answer": "Rapid elasticity"
+        },
+        {
+            "question": "How should you hold RAM when installing it?",
+            "answer": "By the edges"
+        },
+        {
+            "question": "You have been tasked with setting up a specialized computer for video editing. Which of the following should you include with the computer? (Select the two best answers.) \n A. Gigabit NIC \n B. Hypervisor \n C. SSD \n D. Docking station \n E. Dual monitors \n F. NAS",
+            "answer": "C, E"
+        },
+        {
+            "question": "How many pins are inside an SATA 3.0 data connector?",
+            "answer": "7"
+        },
+        {
+            "question": "What is the term for the delay in the RAM\u2019s response to a request from the memory controller?",
+            "answer": "Latency"
+        },
+        {
+            "question": "What is the minimum number of storage drives necessary to implement RAID 5?",
+            "answer": "Three"
+        },
+        {
+            "question": "A user\u2019s time and date keep resetting to January 1, 2015. Which of the following is the most likely cause?",
+            "answer": "The lithium battery needs to be replaced."
+        },
+        {
+            "question": "Which type of adapter card is normally plugged into a PCIe x16 adapter card slot?",
+            "answer": "Video"
+        },
+        {
+            "question": "Which of the following is a common type of CPU for a smartphone?",
+            "answer": "SoC"
+        },
+        {
+            "question": "Which of the following components could cause the POST to beep several times and fail during boot?",
+            "answer": "RAM"
+        },
+        {
+            "question": "Which of the following are ports you might find on smartphones and tablets? (Select the two best answers.) \n A. eSATA \n B. USB-C \n C. Lightning \n D. DVI",
+            "answer": "B, C"
+        },
+        {
+            "question": "Which of the following has the fastest data throughput?",
+            "answer": "RAM"
+        },
+        {
+            "question": "Which of the following CPU cooling methods is the most common?",
+            "answer": "Heat sink and fan"
+        },
+        {
+            "question": "You are tasked with fixing a problem with a video editing workstation. An unexpected clicking noise occurs every time the video editing program is started. The case fans have been replaced, but the noise remains. Diagnostics have also been run on the video card, and it appears to be operating normally. What action should you take first?",
+            "answer": "Perform a full data backup."
+        },
+        {
+            "question": "You are in the process of upgrading a lab\u2019s systems from wireless-equipped laptops to thin clients. To support the VDI that you plan to implement, each client needs a 1 Gbps connection. Previously, the laptops connected to the organization\u2019s 802.11n wireless network. Which of the following is needed for the thin clients to communicate with each other?",
+            "answer": "Network cables"
+        },
+        {
+            "question": "Which of the following cable types should you use to connect a cable modem to a SOHO router?",
+            "answer": "Ethernet"
+        },
+        {
+            "question": "With which of the following technologies can you have two mobile devices transfer data simply by touching them together?",
+            "answer": "NFC"
+        },
+        {
+            "question": "What type of power connector is used for a x16 video card?",
+            "answer": "PCIe 8-pin"
+        },
+        {
+            "question": "Which of the following are output devices? (Select the three best answers.) \n A. Speakers \n B. Keyboard \n C. Mouse \n D. Printer \n E. Display \n F. Touchpad",
+            "answer": "A, D, E"
+        },
+        {
+            "question": "Which of the following connectors is used for telephone lines? \nA) RJ45 \nB) F-type \nC) RJ11 \nD) BNC",
+            "answer": "C"
+        },
+        {
+            "question": "What type of RAM is typically used in laptops? \nA) DIMM \nB) SODIMM \nC) RIMM \nD) SIMM",
+            "answer": "B"
+        },
+        {
+            "question": "Which RAID level provides disk mirroring for redundancy? \nA) RAID 0 \nB) RAID 1 \nC) RAID 5 \nD) RAID 10",
+            "answer": "B"
+        },
+        {
+            "question": "What is the purpose of a heat sink on a motherboard? \nA) To store data \nB) To dissipate heat from the CPU \nC) To connect peripherals \nD) To provide power to the system",
+            "answer": "B"
+        },
+        {
+            "question": "Which of the following is NOT a type of cloud service model? \nA) IaaS \nB) SaaS \nC) PaaS \nD) HaaS",
+            "answer": "D"
+        },
+        {
+            "question": "What is the first step in the troubleshooting methodology? \nA) Establish a theory of probable cause \nB) Identify the problem \nC) Document findings \nD) Establish a plan of action",
+            "answer": "B"
+        },
+        {
+            "question": "Which of the following is a common symptom of a malware infection on a mobile device? \nA) Poor battery health \nB) Broken screen \nC) Overheating \nD) Unusual pop-up ads",
+            "answer": "D"
+        },
+        {
+            "question": "What is the purpose of a cable stripper? \nA) To test cables for continuity \nB) To connect cables to a patch panel \nC) To remove the outer insulation of a cable \nD) To crimp connectors onto a cable",
+            "answer": "C"
+        },
+        {
+            "question": "Which wireless networking protocol is known for its long-range capabilities? \nA) Bluetooth \nB) 802.11ac \nC) NFC \nD) 802.11ax",
+            "answer": "B"
+        },
+        {
+            "question": "What does the acronym DHCP stand for? \nA) Dynamic Host Configuration Protocol \nB) Domain Host Control Protocol \nC) Data Handling Control Protocol \nD) Domain Host Configuration Protocol",
+            "answer": "A"
+        },
+        {
+            "question": "Which of the following is NOT a common mobile device synchronization method? \nA) Bluetooth \nB) iCloud \nC) Google Workspace \nD) Microsoft 365",
+            "answer": "A"
+        },
+        {
+            "question": "What is the purpose of the Transmission Control Protocol (TCP)? \nA) To ensure reliable data transmission between devices \nB) To provide a connectionless communication method \nC) To manage the assignment of IP addresses \nD) To resolve domain names to IP addresses",
+            "answer": "A"
+        },
+        {
+            "question": "Which of the following is a type of managed switch? \nA) Unmanaged switch \nB) Hub \nC) Smart switch \nD) Repeater",
+            "answer": "C"
+        },
+        {
+            "question": "What is the function of a DNS server? \nA) To assign IP addresses to devices \nB) To translate domain names into IP addresses \nC) To manage network traffic \nD) To provide wireless connectivity",
+            "answer": "B"
+        },
+        {
+            "question": "Which of the following is NOT a valid IPv4 address? \nA) 192.168.1.1 \nB) 10.0.0.1 \nC) 172.16.0.1 \nD) 169.254.0.1",
+            "answer": "D"
+        },
+        {
+            "question": "What is the purpose of a loopback plug? \nA) To connect two devices directly \nB) To test a network port \nC) To extend the length of a cable \nD) To split a network signal",
+            "answer": "B"
+        },
+        {
+            "question": "Which type of cable is used for connecting a modem to a computer? \nA) RJ11 \nB) RJ45 \nC) Coaxial \nD) Fiber optic",
+            "answer": "C"
+        },
+        {
+            "question": "What is the purpose of ECC RAM? \nA) To increase the speed of data transfer \nB) To detect and correct errors in memory \nC) To provide additional storage capacity \nD) To improve graphics performance",
+            "answer": "B"
+        },
+        {
+            "question": "Which of the following is NOT a type of motherboard form factor? \nA) ATX \nB) ITX \nC) BTX \nD) Mini-ITX",
+            "answer": "C"
+        },
+        {
+            "question": "What is the purpose of thermal paste? \nA) To insulate electrical components \nB) To lubricate moving parts \nC) To improve heat transfer between the CPU and heat sink \nD) To clean electronic contacts",
+            "answer": "C"
+        },
+        {
+            "question": "Which type of printer uses toner? \nA) Inkjet printer \nB) Laser printer \nC) Thermal printer \nD) Impact printer",
+            "answer": "B"
+        },
+        {
+            "question": "What is the purpose of a print server? \nA) To store print jobs \nB) To manage print queues \nC) To share a printer on a network \nD) All of the above",
+            "answer": "D"
+        },
+        {
+            "question": "Which of the following is NOT a characteristic of cloud computing? \nA) Shared resources \nB) Metered utilization \nC) Rapid elasticity \nD) Limited scalability",
+            "answer": "D"
+        },
+        {
+            "question": "What is the purpose of client-side virtualization? \nA) To create multiple virtual machines on a server \nB) To run an operating system within another operating system \nC) To provide remote access to a desktop environment \nD) To manage network resources",
+            "answer": "B"
+        },
+        {
+            "question": "Which of the following is a common symptom of a failing CPU? \nA) Slow performance \nB) Overheating \nC) System crashes \nD) All of the above",
+            "answer": "D"
+        },
+        {
+            "question": "What does the acronym S.M.A.R.T. stand for in the context of hard drives? \nA) Self-Monitoring, Analysis, and Reporting Technology \nB) Simple Management and Reporting Tool \nC) System Monitoring and Alerting Technology \nD) Storage Management and Retrieval Tool",
+            "answer": "A"
+        },
+        {
+            "question": "Which of the following is a common cause of display burn-in? \nA) Leaving a static image on the screen for an extended period \nB) Physical damage to the screen \nC) Incorrect color settings \nD) Loose cable connections",
+            "answer": "A"
+        },
+        {
+            "question": "What is a common cause of intermittent wireless connectivity issues? \nA) Low battery on the mobile device \nB) Interference from other wireless devices \nC) Incorrect network password \nD) Damaged charging port",
+            "answer": "B"
+        },
+        {
+            "question": "Which of the following is NOT a valid reason for a PRL update on a mobile device? \nA) To optimize signal strength \nB) To improve roaming capabilities \nC) To update carrier settings \nD) To increase data speeds",
+            "answer": "D"
+        },
+        {
+            "question": "What is the function of a router in a network? \nA) To connect devices within a local network \nB) To direct network traffic between different networks \nC) To assign IP addresses to devices \nD) To filter network traffic based on security rules",
+            "answer": "B"
+        },
+        {
+            "question": "Which wireless technology is commonly used for short-range communication between devices? \nA) Bluetooth \nB) Wi-Fi \nC) Cellular \nD) Ethernet",
+            "answer": "A"
+        },
+        {
+            "question": "What is the purpose of a DHCP reservation? \nA) To assign a specific IP address to a device \nB) To renew a DHCP lease \nC) To release a DHCP lease \nD) To configure the DHCP scope",
+            "answer": "A"
+        },
+        {
+            "question": "Which type of network cable is commonly used for Ethernet connections in a SOHO environment? \nA) Coaxial cable \nB) Fiber optic cable \nC) Twisted pair cable \nD) Twinaxial cable",
+            "answer": "C"
+        },
+        {
+            "question": "What is the purpose of a cable tester? \nA) To measure the voltage of a cable \nB) To check the continuity and wiring of a cable \nC) To strip the insulation off a cable \nD) To crimp connectors onto a cable",
+            "answer": "B"
+        },
+        {
+            "question": "Which of the following is NOT a type of optical cable connector? \nA) ST \nB) SC \nC) LC \nD) RJ45",
+            "answer": "D"
+        },
+        {
+            "question": "What is the difference between single-channel and dual-channel RAM configurations? \nA) Single-channel RAM has one stick of RAM, while dual-channel has two \nB) Single-channel RAM is faster than dual-channel RAM \nC) Dual-channel RAM allows for faster data transfer than single-channel RAM \nD) Dual-channel RAM is only used in servers",
+            "answer": "C"
+        },
+        {
+            "question": "Which component of a motherboard stores the BIOS/UEFI firmware? \nA) CPU \nB) RAM \nC) CMOS battery \nD) Chipset",
+            "answer": "C"
+        },
+        {
+            "question": "What is the purpose of a CPU socket? \nA) To connect the CPU to the power supply \nB) To provide cooling for the CPU \nC) To house and connect the CPU to the motherboard \nD) To connect the CPU to the RAM",
+            "answer": "C"
+        },
+        {
+            "question": "Which type of printer uses a heating element to create an image on special paper? \nA) Inkjet printer \nB) Laser printer \nC) Thermal printer \nD) Impact printer",
+            "answer": "C"
+        },
+        {
+            "question": "What is the purpose of a printer driver? \nA) To convert print data into a format the printer can understand \nB) To manage the print queue \nC) To connect the printer to the network \nD) To scan documents",
+            "answer": "A"
+        },
+        {
+            "question": "Which cloud computing model involves a mix of public and private cloud resources? \nA) Public cloud \nB) Private cloud \nC) Hybrid cloud \nD) Community cloud",
+            "answer": "C"
+        },
+        {
+            "question": "What is the purpose of a sandbox in the context of virtual machines? \nA) To provide a safe environment for testing software \nB) To isolate virtual machines from each other \nC) To allocate resources to virtual machines \nD) To manage the network settings of virtual machines",
+            "answer": "A"
+        },
+        {
+            "question": "Which of the following is NOT a common symptom of a motherboard failure? \nA) No POST \nB) Overheating \nC) Burning smell \nD) Low battery warning",
+            "answer": "D"
+        },
+        {
+            "question": "What does the acronym RAID stand for? \nA) Redundant Array of Independent Disks \nB) Random Access Independent Disks \nC) Reliable Array of Interconnected Disks \nD) Rapid Access Independent Disks",
+            "answer": "A"
+        },
+        {
+            "question": "Which of the following is a common cause of a fuzzy image on a projector? \nA) Incorrect data source \nB) Burned-out bulb \nC) Dirty lens \nD) Loose cable connections",
+            "answer": "C"
+        },
+        {
+            "question": "What is a common cause of cursor drift on a mobile device? \nA) Low battery \nB) Broken screen \nC) Touchscreen calibration issues \nD) Malware infection",
+            "answer": "C"
+        },
+        {
+            "question": "Which of the following is NOT a common cause of paper jams in a printer? \nA) Incorrect paper size \nB) Worn-out rollers \nC) Torn paper \nD) Low toner",
+            "answer": "D"
+        },
+        {
+            "question": "What is the purpose of a network tap? \nA) To amplify a network signal \nB) To split a network signal for monitoring \nC) To connect two network cables \nD) To terminate a network cable",
+            "answer": "B"
         }
     ]
 }
