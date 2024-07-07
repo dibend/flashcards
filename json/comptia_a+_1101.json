@@ -1483,6 +1483,16 @@
         {
             "question": "What is the purpose of a network tap? \nA) To amplify a network signal \nB) To split a network signal for monitoring \nC) To connect two network cables \nD) To terminate a network cable",
             "answer": "B"
-        }
+        },
+        {"question": "What type of coaxial cable is most commonly used for cable television and internet connections?", "answer": "RG-6"}
+{"question": "What type of coaxial cable is often used for connecting satellite dishes to receivers?", "answer": "RG-6"},
+{"question": "What type of coaxial cable is used for thin Ethernet networks?", "answer": "RG-58"},
+{"question": "What type of coaxial cable is used for thick Ethernet networks?", "answer": "RG-11"},
+{"question": "What type of connector is most commonly used with RG-6 coaxial cable?", "answer": "F-connector"},
+{"question": "What type of connector is most commonly used with RG-59 coaxial cable?", "answer": "BNC connector"},
+{"question": "What type of connector is most commonly used with RG-58 coaxial cable?", "answer": "BNC connector"},
+{"question": "What type of connector is used for connecting coaxial cables to satellite dishes?", "answer": "F-connector"},
+{"question": "What type of connector is used for connecting coaxial cables to cable modems?", "answer": "F-connector"},
+{"question": "What is the difference between RG-6 and RG-59 coaxial cables?", "answer": "RG-6 is thicker and has less signal loss, making it better for longer distances and higher frequencies. RG-59 is thinner and has more signal loss, making it better for shorter distances and lower frequencies."}
     ]
 }
