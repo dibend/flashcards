@@ -79,6 +79,138 @@
         {
             "question": "Which protocol is primarily used to securely transfer files over a network?",
             "answer": "SFTP (Secure File Transfer Protocol)"
-        }
+        },
+        {
+            "question": "A company recently implemented a patch management policy; however, vulnerability scanners have still been flagging several hosts, even after the completion of the patch process. Which of the following is the most likely cause of the issue?",
+            "answer": "Third-party applications are not being patched.",
+            "explanation": "Patch management policies often focus on operating systems and core applications.  Third-party applications, which are often developed by different vendors, can be overlooked.  If these applications have vulnerabilities and are not patched, scanners will continue to flag them even if the OS and core applications are up-to-date."
+        },
+        {
+            "question": "An organization wants to secure a LAN/WLAN so users can authenticate and transport data securely. The solution needs to prevent on-path attacks and evil twin attacks. Which of the following will best meet the organization's need?",
+            "answer": "802.1X",
+            "explanation": "802.1X is a port-based network access control (NAC) protocol. It provides authentication and authorization for devices attempting to connect to a network, preventing unauthorized access. It also helps prevent on-path attacks (where an attacker intercepts communication) and evil twin attacks (fake Wi-Fi access points) by requiring authentication before network access is granted."
+        },
+        {
+            "question": "Which of the following can be used to secure communication channels over untrusted networks?",
+            "answer": "VPN (Virtual Private Network)",
+            "explanation": "A VPN creates an encrypted tunnel over a public network like the internet. This tunnel ensures that data transmitted between the user and the VPN server is protected from eavesdropping and tampering, effectively securing communication channels over untrusted networks."
+        },
+        {
+            "question": "What type of attack involves the hacker inserting themselves between two parties to intercept and possibly alter communications?",
+            "answer": "Man-in-the-Middle (MitM)",
+            "explanation": "In a Man-in-the-Middle attack, the attacker positions themselves between two communicating parties, intercepting and potentially modifying the data being exchanged.  This allows the attacker to eavesdrop on conversations, steal credentials, or manipulate data without the knowledge of either party."
+        },
+        {
+            "question": "Which protocol is used for securing HTTP traffic?",
+            "answer": "HTTPS",
+            "explanation": "HTTPS (Hypertext Transfer Protocol Secure) uses SSL/TLS encryption to secure HTTP communication.  This protects data transmitted between the client and the web server, preventing eavesdropping and tampering."
+        },
+        {
+            "question": "What does the principle of least privilege refer to?",
+            "answer": "Users are granted the minimum levels of access needed to perform their job functions.",
+            "explanation": "The principle of least privilege is a security best practice that limits user access rights to only the resources they absolutely need to perform their job. This reduces the potential damage that can be caused by accidental or malicious actions."
+        },
+        {
+            "question": "Which type of malware is designed to spread from one system to another by itself?",
+            "answer": "Worm",
+            "explanation": "Worms are self-replicating malware that can spread across a network without human intervention.  They exploit vulnerabilities in systems to propagate themselves, often causing significant disruption and damage."
+        },
+        {
+            "question": "What is the primary purpose of using multi-factor authentication (MFA)?",
+            "answer": "To increase security by requiring multiple forms of verification before granting access.",
+            "explanation": "MFA adds layers of security by requiring users to provide multiple forms of authentication, such as a password, a code from a mobile app, or a biometric scan. This makes it much harder for attackers to gain access even if they manage to steal a password."
+        },
+        {
+            "question": "Which encryption method uses a pair of keys, one public and one private, for secure data transmission?",
+            "answer": "Asymmetric encryption",
+            "explanation": "Asymmetric encryption uses two keys: a public key for encryption and a private key for decryption.  The public key can be shared with anyone, while the private key is kept secret. This method is used for secure communication and digital signatures."
+        },
+        {
+            "question": "What does the term 'phishing' refer to in cybersecurity?",
+            "answer": "A fraudulent attempt to obtain sensitive information by disguising as a trustworthy entity in electronic communication.",
+            "explanation": "Phishing attacks typically involve emails, text messages, or websites that mimic legitimate organizations to trick users into revealing sensitive information like passwords, credit card details, or personal information."
+        },
+        {
+            "question": "Which type of attack attempts to guess a password by trying numerous combinations?",
+            "answer": "Brute force attack",
+            "explanation": "A brute force attack involves systematically trying different combinations of characters, numbers, and symbols to guess a password. Attackers may use automated tools to rapidly test numerous possibilities."
+        },
+        {
+            "question": "What security measure is used to detect and respond to anomalies in network traffic?",
+            "answer": "Intrusion Detection System (IDS)",
+            "explanation": "An IDS monitors network traffic for suspicious patterns and anomalies that may indicate malicious activity. It can alert administrators to potential threats and, in some cases, take automated actions to block or mitigate attacks."
+        },
+        {
+            "question": "Which framework is commonly used to assess the maturity of an organization's cybersecurity practices?",
+            "answer": "NIST Cybersecurity Framework",
+            "explanation": "The NIST Cybersecurity Framework provides a set of standards, guidelines, and best practices to help organizations manage cybersecurity risks. It offers a structured approach to assessing and improving an organization's cybersecurity posture."
+        },
+        {
+            "question": "What does 'DDoS' stand for, and what is its primary objective?",
+            "answer": "Distributed Denial of Service; its primary objective is to overwhelm a network or service with a flood of internet traffic.",
+            "explanation": "A DDoS attack uses multiple compromised systems to generate a massive amount of traffic towards a target, overwhelming its resources and making it unavailable to legitimate users."
+        },
+        {
+            "question": "Which of the following best describes a zero-day vulnerability?",
+            "answer": "A software vulnerability that is unknown to the vendor and has no existing fix.",
+            "explanation": "Zero-day vulnerabilities are particularly dangerous because there are no patches or mitigations available when they are first discovered.  Attackers can exploit these vulnerabilities before the vendor is even aware of the issue."
+        },
+        {
+            "question": "Which type of cryptographic attack involves capturing encrypted data and using statistical analysis to decipher it?",
+            "answer": "Ciphertext-only attack",
+            "explanation": "In a ciphertext-only attack, the attacker only has access to the encrypted data (ciphertext). They attempt to decipher the data by analyzing patterns and statistical properties of the ciphertext without knowing the encryption key."
+        },
+        {
+            "question": "What does the term 'sandboxing' refer to in cybersecurity?",
+            "answer": "Running code in an isolated environment to observe its behavior without affecting the system.",
+            "explanation": "Sandboxing provides a safe environment to test potentially malicious code or applications.  If the code causes damage or exhibits malicious behavior within the sandbox, it will not affect the rest of the system."
+        },
+        {
+            "question": "What is the primary role of a security information and event management (SIEM) system?",
+            "answer": "To provide real-time analysis of security alerts generated by applications and network hardware.",
+            "explanation": "SIEM systems collect and correlate security logs from various sources, providing a centralized view of security events. They perform real-time analysis to identify potential threats and generate alerts, helping security teams to respond quickly to incidents."
+        },
+        {
+            "question": "What is the purpose of penetration testing in an organization's security strategy?",
+            "answer": "To identify and exploit vulnerabilities in a system to assess its security posture.",
+            "explanation": "Penetration testing, also known as ethical hacking, involves simulating real-world attacks to discover weaknesses in an organization's defenses.  The goal is to identify vulnerabilities before attackers can exploit them."
+        },
+        {
+            "question": "Which protocol is primarily used to securely transfer files over a network?",
+            "answer": "SFTP (Secure File Transfer Protocol)",
+            "explanation": "SFTP uses SSH (Secure Shell) to encrypt both the authentication credentials and the data being transferred, providing a secure channel for file transfers.  It is different from FTP, which transmits data in cleartext and is therefore insecure."
+        },
+        {
+      "question": "Which access control model uses labels to define the sensitivity of data and the clearance of users, often used in government and military settings? A. Discretionary Access Control (DAC) B. Mandatory Access Control (MAC) C. Role-Based Access Control (RBAC) D. Attribute-Based Access Control (ABAC)",
+      "answer": "B. Mandatory Access Control (MAC) - MAC uses a centralized authority to define access rules based on security labels and clearances.  Users are granted access based on these predefined rules, not at the discretion of the data owner."
+    },
+    {
+      "question": "What is the primary function of a Security Orchestration, Automation, and Response (SOAR) platform? A. To provide real-time network monitoring. B. To automate security tasks and incident response. C. To manage user identities and access. D. To perform vulnerability scanning and penetration testing.",
+      "answer": "B. To automate security tasks and incident response. - SOAR platforms automate security tasks, such as incident response, threat intelligence gathering, and vulnerability remediation. They integrate with various security tools to streamline operations and improve efficiency."
+    },
+    {
+      "question": "Which of the following BEST describes a watering hole attack? A. An attacker sends phishing emails to a large number of recipients. B. An attacker compromises a website frequently visited by the intended target. C. An attacker intercepts communication between two parties. D. An attacker attempts to guess a user's password.",
+      "answer": "B. An attacker compromises a website frequently visited by the intended target. - In a watering hole attack, the attacker compromises a website that the target group is known to visit.  By infecting this site, the attacker hopes to compromise the systems of the visitors."
+    },
+    {
+      "question": "Which encryption algorithm is considered symmetric? A. RSA B. AES C. Diffie-Hellman D. ECC",
+      "answer": "B. AES - AES (Advanced Encryption Standard) is a symmetric encryption algorithm, meaning it uses the same key for both encryption and decryption. RSA, Diffie-Hellman, and ECC are asymmetric algorithms using key pairs."
+    },
+    {
+      "question": "What is the purpose of data masking? A. To encrypt data at rest. B. To replace sensitive data with fictitious data. C. To compress data for storage. D. To digitally sign data.",
+      "answer": "B. To replace sensitive data with fictitious data. - Data masking replaces sensitive data elements with modified or fictitious data, while preserving the format and usefulness of the data for testing, development, or other non-production purposes."
+    },
+    {
+      "question": "Which security principle focuses on ensuring data is accurate and trustworthy? A. Confidentiality B. Integrity C. Availability D. Non-repudiation",
+      "answer": "B. Integrity - Integrity ensures that data is accurate, complete, and has not been tampered with. Hashing and digital signatures are used to verify data integrity."
+    },
+    {
+      "question": "Which term refers to the practice of hiding data within other data? A. Cryptography B. Steganography C. Hashing D. Digital Signatures",
+      "answer": "B. Steganography - Steganography involves concealing data within other data, such as images or audio files.  Unlike cryptography, which makes data unreadable, steganography aims to make the existence of the hidden data itself undetectable."
+    },
+    {
+      "question": "What is a keylogger? A. Malware that encrypts user files. B. Software that records user keystrokes. C. A type of firewall. D. A vulnerability scanning tool.",
+      "answer": "B. Software that records user keystrokes. - A keylogger is a type of malware that secretly records all keystrokes made by a user, including passwords, credit card numbers, and other sensitive information."
+    }
     ]
 }
