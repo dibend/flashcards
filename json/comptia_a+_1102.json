@@ -157,40 +157,104 @@
             "answer": "An IP address is a numerical identifier for a device on a network, while a hostname is a human-readable name for a device."
         },
         {
-  "comptia_a+_1102": [
-    {
-      "question": "A user reports that their computer's clock is always wrong after restarting.  Assuming the time zone is correctly set, what is the MOST likely cause? A. The network time protocol (NTP) server is incorrect. B. The CMOS battery is failing. C. The operating system is corrupted. D. The user is not properly shutting down the computer.",
-      "answer": "B. The CMOS battery is failing. - The CMOS battery powers the real-time clock (RTC) chip on the motherboard, which keeps track of the date and time. When this battery fails, the clock loses its settings when the computer is turned off."
-    },
-    {
-      "question": "While troubleshooting a slow computer, a technician notices a large number of processes running that are unfamiliar. What is the BEST next step? A. Immediately terminate all unfamiliar processes. B. Research the unfamiliar processes online. C. Run a full system scan with an anti-malware program. D. Reinstall the operating system.",
-      "answer": "C. Run a full system scan with an anti-malware program. - The unfamiliar processes could be malware. A full system scan is the best way to detect and remove any malicious software."
-    },
-    {
-      "question": "A user cannot connect to the wireless network. Other devices can connect without issue.  What is the FIRST thing the technician should check on the affected device? A. The wireless adapter is enabled. B. The wireless network password. C. The IP address configuration. D. The signal strength.",
-      "answer": "A. The wireless adapter is enabled. - It's a common oversight. Ensure the wireless adapter is physically switched on (if applicable) and enabled in the operating system."
-    },
-    {
-      "question": "Which of the following is NOT a common symptom of a failing hard drive? A. Slow boot times. B. Blue Screen of Death (BSOD) errors. C. Intermittent application crashes. D. The computer suddenly shuts down and restarts.",
-      "answer": "D. The computer suddenly shuts down and restarts. - While a failing hard drive *could* cause this, it's more likely related to power issues (PSU, overheating) or a critical system error not necessarily tied to the storage drive specifically. The other options are more directly related to hard drive issues."
-    },
-    {
-      "question": "A technician needs to securely erase data from an old hard drive before disposal. Which method is the MOST secure? A. Quick format. B. Full format. C. Degaussing. D. Deleting the files and emptying the Recycle Bin.",
-      "answer": "C. Degaussing. - Degaussing uses a strong magnetic field to completely erase the data on a hard drive, making it unrecoverable. While a full format is better than a quick format or simply deleting files, it is not as secure as degaussing."
-    },
-    {
-      "question": "A user reports that their monitor displays distorted images.  What is the FIRST thing the technician should check? A. The monitor cable connections. B. The graphics card drivers. C. The monitor resolution settings. D. The refresh rate.",
-      "answer": "A. The monitor cable connections. -  A loose or damaged cable is a common cause of distorted images. Checking the connections is the quickest and easiest first step."
-    },
-    {
-      "question": "Which of the following is an example of a preventative maintenance task for a computer? A. Running a disk defragmentation utility. B. Replacing a failed hard drive. C. Troubleshooting a network connectivity issue. D. Removing malware from an infected system.",
-      "answer": "A. Running a disk defragmentation utility. - Defragmentation is a preventative task that optimizes file storage, improving performance and potentially extending the life of the hard drive. The other options are reactive, addressing existing problems."
-    },
-    {
-      "question": "What is the purpose of a UPS (Uninterruptible Power Supply)? A. To provide surge protection. B. To provide backup power in case of a power outage. C. To regulate voltage. D. To improve network connectivity.",
-      "answer": "B. To provide backup power in case of a power outage. - A UPS provides battery backup power, allowing the computer to be shut down safely or continue operating for a short period during a power outage."
-    }
-  ]
-}
+          "question": "A user reports that their computer's clock is always wrong after restarting.  Assuming the time zone is correctly set, what is the MOST likely cause? A. The network time protocol (NTP) server is incorrect. B. The CMOS battery is failing. C. The operating system is corrupted. D. The user is not properly shutting down the computer.",
+          "answer": "B. The CMOS battery is failing. - The CMOS battery powers the real-time clock (RTC) chip on the motherboard, which keeps track of the date and time. When this battery fails, the clock loses its settings when the computer is turned off."
+        },
+        {
+          "question": "While troubleshooting a slow computer, a technician notices a large number of processes running that are unfamiliar. What is the BEST next step? A. Immediately terminate all unfamiliar processes. B. Research the unfamiliar processes online. C. Run a full system scan with an anti-malware program. D. Reinstall the operating system.",
+          "answer": "C. Run a full system scan with an anti-malware program. - The unfamiliar processes could be malware. A full system scan is the best way to detect and remove any malicious software."
+        },
+        {
+          "question": "A user cannot connect to the wireless network. Other devices can connect without issue.  What is the FIRST thing the technician should check on the affected device? A. The wireless adapter is enabled. B. The wireless network password. C. The IP address configuration. D. The signal strength.",
+          "answer": "A. The wireless adapter is enabled. - It's a common oversight. Ensure the wireless adapter is physically switched on (if applicable) and enabled in the operating system."
+        },
+        {
+          "question": "Which of the following is NOT a common symptom of a failing hard drive? A. Slow boot times. B. Blue Screen of Death (BSOD) errors. C. Intermittent application crashes. D. The computer suddenly shuts down and restarts.",
+          "answer": "D. The computer suddenly shuts down and restarts. - While a failing hard drive *could* cause this, it's more likely related to power issues (PSU, overheating) or a critical system error not necessarily tied to the storage drive specifically. The other options are more directly related to hard drive issues."
+        },
+        {
+          "question": "A technician needs to securely erase data from an old hard drive before disposal. Which method is the MOST secure? A. Quick format. B. Full format. C. Degaussing. D. Deleting the files and emptying the Recycle Bin.",
+          "answer": "C. Degaussing. - Degaussing uses a strong magnetic field to completely erase the data on a hard drive, making it unrecoverable. While a full format is better than a quick format or simply deleting files, it is not as secure as degaussing."
+        },
+        {
+          "question": "A user reports that their monitor displays distorted images.  What is the FIRST thing the technician should check? A. The monitor cable connections. B. The graphics card drivers. C. The monitor resolution settings. D. The refresh rate.",
+          "answer": "A. The monitor cable connections. -  A loose or damaged cable is a common cause of distorted images. Checking the connections is the quickest and easiest first step."
+        },
+        {
+          "question": "Which of the following is an example of a preventative maintenance task for a computer? A. Running a disk defragmentation utility. B. Replacing a failed hard drive. C. Troubleshooting a network connectivity issue. D. Removing malware from an infected system.",
+          "answer": "A. Running a disk defragmentation utility. - Defragmentation is a preventative task that optimizes file storage, improving performance and potentially extending the life of the hard drive. The other options are reactive, addressing existing problems."
+        },
+        {
+          "question": "What is the purpose of a UPS (Uninterruptible Power Supply)? A. To provide surge protection. B. To provide backup power in case of a power outage. C. To regulate voltage. D. To improve network connectivity.",
+          "answer": "B. To provide backup power in case of a power outage. - A UPS provides battery backup power, allowing the computer to be shut down safely or continue operating for a short period during a power outage."
+        },
+        {
+          "question": "A user reports that their computer is running out of disk space frequently. What is the BEST first step to address this issue? A. Upgrade to a larger hard drive. B. Delete temporary files and unnecessary programs. C. Increase virtual memory settings. D. Reinstall the operating system.",
+          "answer": "B. Delete temporary files and unnecessary programs. - This is an effective way to free up space without hardware changes or drastic measures like reinstalling the OS."
+        },
+        {
+          "question": "Which of the following actions should be taken first when a computer is experiencing slow performance? A. Upgrade the RAM. B. Run a virus scan. C. Clean up startup programs. D. Defragment the hard drive.",
+          "answer": "C. Clean up startup programs. - Reducing the number of programs that run at startup can significantly improve boot times and overall system performance."
+        },
+        {
+          "question": "A user is unable to print documents from their computer. Other users on the same network can print without issue. What should be the FIRST step in troubleshooting? A. Check if the printer has paper and ink. B. Restart the print spooler service. C. Ensure the correct printer driver is installed. D. Verify that the printer is set as the default device.",
+          "answer": "D. Verify that the printer is set as the default device. - Ensuring the correct printer is set as default can resolve many basic printing issues."
+        },
+        {
+          "question": "A technician notices that a computer's fans are running louder than usual. What should be the FIRST step in diagnosing the issue? A. Replace the fans immediately. B. Check for dust or debris inside the case. C. Update the BIOS. D. Monitor CPU and GPU temperatures.",
+          "answer": "B. Check for dust or debris inside the case. - Dust buildup is a common cause of loud fan noise, and cleaning it can often resolve the issue."
+        },
+        {
+          "question": "Which tool would be most appropriate to diagnose network connectivity issues on a Windows computer? A. Task Manager. B. Device Manager. C. Command Prompt with 'ping'. D. Control Panel.",
+          "answer": "C. Command Prompt with 'ping'. - The ping command can test the connection to other devices or servers, helping to identify where the issue may lie."
+        },
+        {
+          "question": "A computer frequently crashes and displays a Blue Screen of Death (BSOD). What is the BEST initial step in troubleshooting? A. Reinstall the operating system. B. Check for recent hardware changes. C. Run a full virus scan. D. Replace the hard drive.",
+          "answer": "B. Check for recent hardware changes. - New or improperly installed hardware can often cause instability and BSODs."
+        },
+        {
+          "question": "A user reports that their computer takes a long time to boot up. Which of the following should be checked FIRST? A. The hard drive's health. B. The number of startup programs. C. Available disk space. D. System temperature.",
+          "answer": "B. The number of startup programs. - Reducing the number of programs that start with Windows can significantly decrease boot times."
+        },
+        {
+          "question": "What is a primary function of an antivirus program? A. Speed up computer performance. B. Protect against malware and viruses. C. Defragment hard drives. D. Manage network connections.",
+          "answer": "B. Protect against malware and viruses. - Antivirus programs are designed to detect, prevent, and remove malicious software."
+        },
+        {
+          "question": "A user's computer is unable to connect to the internet, but other devices on the network can. What should be checked FIRST? A. The router's firmware update status. B. Physical Ethernet connection or Wi-Fi settings. C. Network cable for damage. D. ISP service status.",
+          "answer": "B. Physical Ethernet connection or Wi-Fi settings. - Ensuring that the device is properly connected to the network can often resolve connectivity issues."
+        },
+        {
+          "question": "When troubleshooting a system's inability to recognize an external USB drive, what should be done FIRST? A. Check the USB port functionality with another device. B. Update the device drivers. C. Format the USB drive. D. Replace the USB cable.",
+          "answer": "A. Check the USB port functionality with another device. - This helps determine if the issue is with the port or the external drive itself."
+        },
+        {
+          "question": "Which tool would be most effective for monitoring real-time system performance on a Windows computer? A. Device Manager. B. Task Manager. C. System Configuration. D. Event Viewer.",
+          "answer": "B. Task Manager. - Task Manager provides detailed information about CPU, memory, disk, and network usage in real time."
+        },
+        {
+          "question": "A user complains that their computer is slow when opening applications. Which of the following should be checked FIRST? A. Amount of RAM installed. B. Number of startup programs. C. Hard drive space availability. D. CPU clock speed.",
+          "answer": "B. Number of startup programs. - Reducing unnecessary startup programs can improve application launch times."
+        },
+        {
+          "question": "What is the best practice for creating a secure password? A. Use personal information like birthdate or pet's name. B. Include at least 8 characters with numbers, letters, and symbols. C. Reuse passwords across multiple accounts. D. Change it every month.",
+          "answer": "B. Include at least 8 characters with numbers, letters, and symbols. - A strong password combines different character types for increased security."
+        },
+        {
+          "question": "Which action is recommended when a user reports that their monitor display is flickering? A. Replace the monitor immediately. B. Check for loose or damaged cables. C. Update the graphics card driver. D. Adjust the screen resolution.",
+          "answer": "B. Check for loose or damaged cables. - Ensuring all connections are secure can often resolve flickering issues."
+        },
+        {
+          "question": "How should you respond when a user reports their computer's battery is draining quickly? A. Replace the battery immediately. B. Check power settings and running applications. C. Increase screen brightness. D. Upgrade to a solid-state drive (SSD).",
+          "answer": "B. Check power settings and running applications. - Adjusting these can help extend battery life without hardware changes."
+        },
+        {
+          "question": "When should you consider upgrading the RAM on a computer? A. When the system has less than 4GB of RAM for modern use. B. Only when the hard drive is full. C. If the CPU is overheating. D. After updating the operating system.",
+          "answer": "A. When the system has less than 4GB of RAM for modern use. - More RAM can significantly improve performance, especially in multitasking."
+        },
+        {
+          "question": "What should be checked FIRST if a computer fails to boot? A. Boot order in BIOS/UEFI settings. B. Hard drive health using a diagnostic tool. C. Ensure the power supply is functional. D. Check for recent software updates.",
+          "answer": "C. Ensure the power supply is functional. - Verifying that the PC receives power is essential before investigating other issues."
+        }
     ]
 }
