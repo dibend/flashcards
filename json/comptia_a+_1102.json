@@ -79,6 +79,118 @@
         {
             "question": "Which Windows utility can be used to schedule automated tasks?",
             "answer": "Task Scheduler"
-        }
+        },
+        {
+            "question": "A user reports their laptop battery is not charging. What is the FIRST thing a technician should check?",
+            "answer": "Ensure the AC adapter is properly connected to both the laptop and a working wall outlet."
+        },
+        {
+            "question": "What is the function of a heat sink in a computer?",
+            "answer": "To absorb and dissipate heat from a component like the CPU."
+        },
+        {
+            "question": "Which type of storage drive generally has the fastest read and write speeds?",
+            "answer": " NVMe SSD"
+        },
+        {
+            "question": "What is the purpose of the CMOS battery on a motherboard?",
+            "answer": "To maintain the system BIOS and clock settings even when the computer is powered off."
+        },
+        {
+            "question": "What is the difference between a hub and a switch in a network?",
+            "answer": "A hub broadcasts data to all connected devices, while a switch sends data only to the intended recipient."
+        },
+        {
+            "question": "Which type of connector is commonly used for connecting a monitor to a computer?",
+            "answer": "HDMI or DisplayPort"
+        },
+        {
+            "question": "What is the purpose of a router in a home network?",
+            "answer": "To connect the home network to the internet and share the internet connection with multiple devices."
+        },
+        {
+            "question": "What is the function of a firewall?",
+            "answer": "To block unauthorized network traffic from entering or leaving a computer or network."
+        },
+        {
+            "question": "What is the difference between DDR4 and DDR5 RAM?",
+            "answer": "DDR5 has higher bandwidth and lower power consumption compared to DDR4."
+        },
+        {
+            "question": "What is the purpose of a CPU cooler?",
+            "answer": "To prevent the CPU from overheating by dissipating heat."
+        },
+        {
+            "question": "Which wireless networking standard is the fastest?",
+            "answer": "Wi-Fi 6 (802.11ax)"
+        },
+        {
+            "question": "What is the purpose of a power supply unit (PSU) in a computer?",
+            "answer": "To convert AC power from the wall outlet to DC power for the computer components."
+        },
+        {
+            "question": "What is the difference between a 32-bit and a 64-bit operating system?",
+            "answer": "A 64-bit OS can utilize more RAM and process data more efficiently than a 32-bit OS."
+        },
+        {
+            "question": "What is the purpose of device drivers?",
+            "answer": "To allow the operating system to communicate with and control hardware devices."
+        },
+        {
+            "question": "What is the function of the BIOS (Basic Input/Output System)?",
+            "answer": "To initialize hardware components and boot the operating system."
+        },
+        {
+            "question": "What is the purpose of a VPN (Virtual Private Network)?",
+            "answer": "To create a secure connection over an untrusted network, like the internet."
+        },
+        {
+            "question": "What is the difference between a physical and a virtual machine?",
+            "answer": "A physical machine is a standalone computer, while a virtual machine runs as a software instance on a physical machine."
+        },
+        {
+            "question": "What is the purpose of a MAC address?",
+            "answer": "To uniquely identify a device on a network."
+        },
+        {
+            "question": "What is the difference between an IP address and a hostname?",
+            "answer": "An IP address is a numerical identifier for a device on a network, while a hostname is a human-readable name for a device."
+        },
+        {
+  "comptia_a+_1102": [
+    {
+      "question": "A user reports that their computer's clock is always wrong after restarting.  Assuming the time zone is correctly set, what is the MOST likely cause? A. The network time protocol (NTP) server is incorrect. B. The CMOS battery is failing. C. The operating system is corrupted. D. The user is not properly shutting down the computer.",
+      "answer": "B. The CMOS battery is failing. - The CMOS battery powers the real-time clock (RTC) chip on the motherboard, which keeps track of the date and time. When this battery fails, the clock loses its settings when the computer is turned off."
+    },
+    {
+      "question": "While troubleshooting a slow computer, a technician notices a large number of processes running that are unfamiliar. What is the BEST next step? A. Immediately terminate all unfamiliar processes. B. Research the unfamiliar processes online. C. Run a full system scan with an anti-malware program. D. Reinstall the operating system.",
+      "answer": "C. Run a full system scan with an anti-malware program. - The unfamiliar processes could be malware. A full system scan is the best way to detect and remove any malicious software."
+    },
+    {
+      "question": "A user cannot connect to the wireless network. Other devices can connect without issue.  What is the FIRST thing the technician should check on the affected device? A. The wireless adapter is enabled. B. The wireless network password. C. The IP address configuration. D. The signal strength.",
+      "answer": "A. The wireless adapter is enabled. - It's a common oversight. Ensure the wireless adapter is physically switched on (if applicable) and enabled in the operating system."
+    },
+    {
+      "question": "Which of the following is NOT a common symptom of a failing hard drive? A. Slow boot times. B. Blue Screen of Death (BSOD) errors. C. Intermittent application crashes. D. The computer suddenly shuts down and restarts.",
+      "answer": "D. The computer suddenly shuts down and restarts. - While a failing hard drive *could* cause this, it's more likely related to power issues (PSU, overheating) or a critical system error not necessarily tied to the storage drive specifically. The other options are more directly related to hard drive issues."
+    },
+    {
+      "question": "A technician needs to securely erase data from an old hard drive before disposal. Which method is the MOST secure? A. Quick format. B. Full format. C. Degaussing. D. Deleting the files and emptying the Recycle Bin.",
+      "answer": "C. Degaussing. - Degaussing uses a strong magnetic field to completely erase the data on a hard drive, making it unrecoverable. While a full format is better than a quick format or simply deleting files, it is not as secure as degaussing."
+    },
+    {
+      "question": "A user reports that their monitor displays distorted images.  What is the FIRST thing the technician should check? A. The monitor cable connections. B. The graphics card drivers. C. The monitor resolution settings. D. The refresh rate.",
+      "answer": "A. The monitor cable connections. -  A loose or damaged cable is a common cause of distorted images. Checking the connections is the quickest and easiest first step."
+    },
+    {
+      "question": "Which of the following is an example of a preventative maintenance task for a computer? A. Running a disk defragmentation utility. B. Replacing a failed hard drive. C. Troubleshooting a network connectivity issue. D. Removing malware from an infected system.",
+      "answer": "A. Running a disk defragmentation utility. - Defragmentation is a preventative task that optimizes file storage, improving performance and potentially extending the life of the hard drive. The other options are reactive, addressing existing problems."
+    },
+    {
+      "question": "What is the purpose of a UPS (Uninterruptible Power Supply)? A. To provide surge protection. B. To provide backup power in case of a power outage. C. To regulate voltage. D. To improve network connectivity.",
+      "answer": "B. To provide backup power in case of a power outage. - A UPS provides battery backup power, allowing the computer to be shut down safely or continue operating for a short period during a power outage."
+    }
+  ]
+}
     ]
 }
